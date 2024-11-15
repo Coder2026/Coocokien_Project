@@ -1,0 +1,67 @@
+2024-11-15 18:17:01,592 - INFO - Logging system is configured
+2024-11-15 18:17:02,207 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 18:17:02,460 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 18:17:02,460 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-15 18:17:27,042 - INFO - 127.0.0.1 - - [15/Nov/2024 18:17:27] "POST /sticker?code=A547B8910 HTTP/1.1" 200 -
+2024-11-15 18:19:07,473 - INFO - Logging system is configured
+2024-11-15 18:19:08,086 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 18:19:08,337 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 18:19:08,337 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-15 18:19:21,134 - INFO - validate in databse
+2024-11-15 18:19:21,136 - INFO - 127.0.0.1 - - [15/Nov/2024 18:19:21] "POST /sticker?code=A547B8910 HTTP/1.1" 200 -
+2024-11-15 18:22:21,255 - INFO - Logging system is configured
+2024-11-15 18:22:21,825 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 18:22:22,083 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 18:22:22,083 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-15 18:22:28,889 - INFO - 127.0.0.1 - - [15/Nov/2024 18:22:28] "POST /sticker?code=A547B8910 HTTP/1.1" 200 -
+2024-11-15 18:22:29,906 - INFO - 127.0.0.1 - - [15/Nov/2024 18:22:29] "POST /sticker?code=A547B8910 HTTP/1.1" 200 -
+2024-11-15 18:32:36,133 - INFO - Logging system is configured
+2024-11-15 18:33:35,095 - INFO - Logging system is configured
+2024-11-15 18:33:35,776 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 18:33:36,037 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 18:33:36,037 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-15 18:33:42,100 - INFO - 127.0.0.1 - - [15/Nov/2024 18:33:42] "[31m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 400 -
+2024-11-15 20:42:15,818 - INFO - Logging system is configured
+2024-11-15 20:42:16,713 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 20:42:16,990 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 20:42:16,990 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-15 20:50:29,913 - INFO - Logging system is configured
+2024-11-15 20:50:30,485 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 20:50:30,731 - ERROR - Error: Directory migrations already exists and is not empty
+2024-11-15 20:51:25,776 - INFO - Logging system is configured
+2024-11-15 20:51:26,384 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 20:51:26,613 - ERROR - Error: Directory migrations already exists and is not empty
+2024-11-15 20:51:49,756 - INFO - Logging system is configured
+2024-11-15 20:51:50,279 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 20:51:50,548 - ERROR - Error: Directory migrations already exists and is not empty
+2024-11-15 20:54:41,756 - INFO - Logging system is configured
+2024-11-15 20:54:42,376 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 20:54:51,469 - INFO - Logging system is configured
+2024-11-15 20:54:51,837 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:01:46,229 - INFO - Logging system is configured
+2024-11-15 21:01:46,916 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:05:57,460 - INFO - Logging system is configured
+2024-11-15 21:05:58,136 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:06:58,027 - INFO - Logging system is configured
+2024-11-15 21:06:58,716 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:08:57,243 - INFO - Logging system is configured
+2024-11-15 21:08:58,105 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:09:20,597 - INFO - Logging system is configured
+2024-11-15 21:09:21,092 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:10:18,891 - INFO - Logging system is configured
+2024-11-15 21:10:19,505 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:15:13,175 - INFO - Logging system is configured
+2024-11-15 21:15:13,902 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:17:35,313 - INFO - Logging system is configured
+2024-11-15 21:17:36,018 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:20:48,119 - INFO - Logging system is configured
+2024-11-15 21:20:48,905 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:22:51,308 - INFO - Logging system is configured
+2024-11-15 21:22:52,068 - INFO - NumExpr defaulting to 8 threads.
+2024-11-15 21:25:08,967 - INFO - Logging system is configured
+2024-11-15 21:25:09,680 - INFO - NumExpr defaulting to 8 threads.

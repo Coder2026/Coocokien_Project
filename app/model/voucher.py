@@ -6,6 +6,7 @@ class Voucher(db.Model):
     id = db.Column(db.BigInteger, primary_key=True, autoincrement=True)
     code = db.Column(db.String(50), unique=True, nullable=False)
     status = db.Column(db.Boolean,nullable = False)
+    discount_status = db.Column(db.Boolean,nullable = False)
 
     def __repr__(self):
                 return '<User {}>'.format(self.id)

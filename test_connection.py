@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 
 # Database URL Anda
-DATABASE_URL = "mysql+pymysql://root:MasterAdnan@123@127.0.0.1:3306/voucher_code"
+DATABASE_URL = "mysql+pymysql://root:MasterAdnan123?@127.0.0.1:3306/voucher_code"
 
 def test_connection():
     try:

@@ -10,7 +10,9 @@ from app.model.voucher import Voucher
 # Jumlah stiker yang dimiliki (misalkan kamu memiliki 10 stiker)
 NUM_STICKERS = 6
 
-STICKER_DIR = os.path.abspath(os.path.join(os.getcwd(), 'stickers'))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STICKER_DIR = os.path.join(BASE_DIR, 'stickers')
+
 
 def upload_image():
     try:

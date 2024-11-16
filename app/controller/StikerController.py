@@ -71,6 +71,8 @@ def get_sticker_image():
             # Menghitung indeks berdasarkan teks
             code = request.args.get('code')
 
+            
+
             voucher = Voucher.query.filter_by(code=code).first()
 
             validate_code = validate_indatabase(voucher)

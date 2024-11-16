@@ -235,3 +235,223 @@ TypeError: The view function for 'upload_code' did not return a valid response. 
 2024-11-16 13:42:29,686 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_5.jpg
 2024-11-16 13:42:29,703 - INFO - Voucher JFW9U70W status updated to redeemed
 2024-11-16 13:42:29,705 - INFO - 127.0.0.1 - - [16/Nov/2024 13:42:29] "POST /sticker?code=JFW9U70W HTTP/1.1" 200 -
+2024-11-16 14:01:06,256 - INFO - Logging system is configured
+2024-11-16 14:01:10,200 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 14:01:10,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 14:01:10,490 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 14:01:39,510 - INFO - Logging system is configured
+2024-11-16 14:01:40,082 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 14:01:40,316 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 14:01:40,316 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 14:01:45,893 - INFO - 127.0.0.1 - - [16/Nov/2024 14:01:45] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 14:02:16,278 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 14:02:16,317 - INFO - Voucher 6EPJ5EW8 status updated to redeemed
+2024-11-16 14:02:16,331 - INFO - 127.0.0.1 - - [16/Nov/2024 14:02:16] "[35m[1mPOST /sticker?code=6EPJ5EW8 HTTP/1.1[0m" 500 -
+2024-11-16 14:02:16,346 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 333, in execute
+    for data in application_iter:
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/werkzeug/wsgi.py", line 332, in __next__
+    data = self.file.read(self.buffer_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Response' object has no attribute 'read'
+2024-11-16 14:02:19,467 - INFO - 127.0.0.1 - - [16/Nov/2024 14:02:19] "[31m[1mPOST /sticker?code=6EPJ5EW8 HTTP/1.1[0m" 400 -
+2024-11-16 14:02:22,025 - INFO - 127.0.0.1 - - [16/Nov/2024 14:02:22] "[31m[1mPOST /sticker?code=6EPJ5EW8 HTTP/1.1[0m" 400 -
+2024-11-16 14:02:46,361 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_5.jpg
+2024-11-16 14:02:46,370 - INFO - Voucher DMHMONK1 status updated to redeemed
+2024-11-16 14:02:46,383 - INFO - 127.0.0.1 - - [16/Nov/2024 14:02:46] "[35m[1mPOST /sticker?code=DMHMONK1 HTTP/1.1[0m" 500 -
+2024-11-16 14:02:46,386 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 333, in execute
+    for data in application_iter:
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/werkzeug/wsgi.py", line 332, in __next__
+    data = self.file.read(self.buffer_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Response' object has no attribute 'read'
+2024-11-16 16:02:42,491 - INFO - Logging system is configured
+2024-11-16 16:02:43,146 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 16:02:43,402 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 16:02:43,403 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 16:02:52,176 - INFO - 127.0.0.1 - - [16/Nov/2024 16:02:52] "[31m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 400 -
+2024-11-16 16:02:54,283 - INFO - 127.0.0.1 - - [16/Nov/2024 16:02:54] "[31m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 400 -
+2024-11-16 16:02:55,245 - INFO - 127.0.0.1 - - [16/Nov/2024 16:02:55] "[31m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 400 -
+2024-11-16 16:14:46,309 - INFO - 127.0.0.1 - - [16/Nov/2024 16:14:46] "[31m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 400 -
+2024-11-16 17:03:48,432 - INFO - Logging system is configured
+2024-11-16 17:03:49,095 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:03:49,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 17:03:49,360 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 17:04:29,626 - INFO - Logging system is configured
+2024-11-16 17:04:29,939 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:04:30,142 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 17:04:30,142 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 17:11:47,904 - INFO - Logging system is configured
+2024-11-16 17:11:47,904 - INFO - Logging system is configured
+2024-11-16 17:11:47,904 - INFO - Logging system is configured
+2024-11-16 17:11:48,769 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:11:48,769 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:11:48,769 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:14:59,858 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:15:01,316 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:15:02,166 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:15:02,868 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:15:03,305 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:15:03,910 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:15:04,234 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:15:04,568 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:15:04,939 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:15:06,733 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 17:16:38,349 - INFO - Logging system is configured
+2024-11-16 17:16:38,349 - INFO - Logging system is configured
+2024-11-16 17:16:38,349 - INFO - Logging system is configured
+2024-11-16 17:16:39,116 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:16:39,116 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:16:39,116 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:16:46,519 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-16 17:16:46,537 - INFO - Voucher NFHWJITG status updated to redeemed
+2024-11-16 17:17:38,974 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_5.jpg
+2024-11-16 17:17:38,988 - INFO - Voucher LN9EUYZ1 status updated to redeemed
+2024-11-16 17:18:40,758 - INFO - Logging system is configured
+2024-11-16 17:18:40,758 - INFO - Logging system is configured
+2024-11-16 17:18:40,758 - INFO - Logging system is configured
+2024-11-16 17:18:41,828 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:18:41,828 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:18:41,828 - INFO - NumExpr defaulting to 8 threads.

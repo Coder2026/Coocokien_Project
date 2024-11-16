@@ -164,18 +164,18 @@ def check_voucher(vouchers):
     Voucher.discount_status == False).all()
    
     existing_code = [voucher.code for voucher in existing_code] 
-    
+
     missing_ids = list(set(vouchers) - set(existing_code))
     return missing_ids
 
 def update_discount_status(vouchers):
     try:
         # Update semua voucher yang ada di daftar ke status True
-        db.session.query.filter(Voucher.code.in_(vouchers)).update(
+        db.session.query(Voucher).filter(Voucher.code.in_(vouchers)).update(
             {"discount_status": True}, synchronize_session='fetch'
         )
         db.session.commit()  
-        return f"Updated {len(vouchers)} vouchers to discount status True."
+        return "Vouchers updated successfully"
     except Exception as e:
         db.session.rollback()
         return f"Failed to update vouchers: {str(e)}"

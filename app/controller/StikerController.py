@@ -10,8 +10,8 @@ from app.model.voucher import Voucher
 # Jumlah stiker yang dimiliki (misalkan kamu memiliki 10 stiker)
 NUM_STICKERS = 6
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STICKER_DIR = os.path.join(BASE_DIR, 'stickers')
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+STICKER_DIR = os.path.join(BASE_DIR, '..', '..', 'stickers')
 
 
 def upload_image():
@@ -89,7 +89,7 @@ def get_sticker_image():
             update_voucher_status(voucher)
 
             # kirimkan gambar
-            return get_sticker_file(index)
+            return sticker_file
         except Exception as e:
             print(e)
 
@@ -129,10 +129,12 @@ def validate_indatabase(voucher):
             
 def get_sticker_file(index):
     sticker_path = os.path.join(STICKER_DIR, f'sticker_{index}.jpg')
+
+    logging.info(f"Checking if sticker file exists at: {sticker_path}")
     if os.path.exists(sticker_path):
         return send_file(sticker_path, mimetype='image/jpeg') 
     else: 
-        return response.badRequest([], 'Sticker not found')
+        return None
     
 
 def redem_diskon():

@@ -67,3 +67,171 @@
 2024-11-15 21:25:09,680 - INFO - NumExpr defaulting to 8 threads.
 2024-11-16 01:49:56,879 - INFO - Logging system is configured
 2024-11-16 01:50:04,342 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 12:24:56,757 - INFO - Logging system is configured
+2024-11-16 12:25:03,940 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 12:25:04,787 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 12:25:04,787 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 12:25:48,434 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 12:25:48,438 - INFO - 127.0.0.1 - - [16/Nov/2024 12:25:48] "[35m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 500 -
+2024-11-16 12:25:49,884 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 12:25:49,885 - INFO - 127.0.0.1 - - [16/Nov/2024 12:25:49] "[35m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 500 -
+2024-11-16 12:25:50,684 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 12:25:50,686 - INFO - 127.0.0.1 - - [16/Nov/2024 12:25:50] "[35m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 500 -
+2024-11-16 12:48:29,987 - INFO - Logging system is configured
+2024-11-16 12:48:30,630 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 12:48:30,887 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 12:48:30,887 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 12:48:39,076 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 12:48:39,079 - INFO - 127.0.0.1 - - [16/Nov/2024 12:48:39] "[35m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 500 -
+2024-11-16 12:48:40,145 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 12:48:40,146 - INFO - 127.0.0.1 - - [16/Nov/2024 12:48:40] "[35m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 500 -
+2024-11-16 12:56:43,690 - INFO - Logging system is configured
+2024-11-16 12:56:44,380 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 12:56:44,690 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 12:56:44,690 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 12:56:49,160 - INFO - 127.0.0.1 - - [16/Nov/2024 12:56:49] "[31m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 400 -
+2024-11-16 12:56:59,901 - INFO - 127.0.0.1 - - [16/Nov/2024 12:56:59] "[31m[1mPOST /sticker?code=A547B8910 HTTP/1.1[0m" 400 -
+2024-11-16 13:15:54,945 - INFO - Logging system is configured
+2024-11-16 13:15:55,674 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:15:55,994 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 13:15:55,994 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 13:17:08,073 - INFO - Logging system is configured
+2024-11-16 13:17:08,663 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:17:37,589 - INFO - Logging system is configured
+2024-11-16 13:17:37,917 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:17:38,115 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 13:17:38,115 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 13:18:01,677 - INFO - Voucher 9GTY47U7 status updated to redeemed
+2024-11-16 13:18:01,679 - INFO - 127.0.0.1 - - [16/Nov/2024 13:18:01] "[31m[1mPOST /sticker?code=9GTY47U7 HTTP/1.1[0m" 400 -
+2024-11-16 13:18:06,163 - INFO - 127.0.0.1 - - [16/Nov/2024 13:18:06] "[31m[1mPOST /sticker?code=9GTY47U7 HTTP/1.1[0m" 400 -
+2024-11-16 13:18:26,719 - INFO - 127.0.0.1 - - [16/Nov/2024 13:18:26] "[31m[1mPOST /sticker?code=9GTY47U7 HTTP/1.1[0m" 400 -
+2024-11-16 13:18:59,395 - INFO - Voucher YJC0LP89 status updated to redeemed
+2024-11-16 13:18:59,397 - INFO - 127.0.0.1 - - [16/Nov/2024 13:18:59] "[31m[1mPOST /sticker?code=YJC0LP89 HTTP/1.1[0m" 400 -
+2024-11-16 13:25:54,098 - INFO - Logging system is configured
+2024-11-16 13:25:54,739 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:26:56,451 - INFO - Logging system is configured
+2024-11-16 13:26:56,957 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:27:08,027 - INFO - Logging system is configured
+2024-11-16 13:27:08,337 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:27:08,539 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 13:27:08,539 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 13:27:19,736 - INFO - 127.0.0.1 - - [16/Nov/2024 13:27:19] "[31m[1mPOST /sticker?code=YJC0LP89 HTTP/1.1[0m" 400 -
+2024-11-16 13:27:32,855 - INFO - 127.0.0.1 - - [16/Nov/2024 13:27:32] "[31m[1mPOST /sticker?code=YJC0LP89 HTTP/1.1[0m" 400 -
+2024-11-16 13:27:33,801 - INFO - 127.0.0.1 - - [16/Nov/2024 13:27:33] "[31m[1mPOST /sticker?code=YJC0LP89 HTTP/1.1[0m" 400 -
+2024-11-16 13:28:56,703 - INFO - Voucher 2B000MET status updated to redeemed
+2024-11-16 13:28:56,705 - INFO - 127.0.0.1 - - [16/Nov/2024 13:28:56] "[31m[1mPOST /sticker?code=2B000MET HTTP/1.1[0m" 400 -
+2024-11-16 13:30:55,099 - INFO - Logging system is configured
+2024-11-16 13:30:55,689 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:30:55,939 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 13:30:55,939 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 13:31:29,848 - INFO - Voucher ZD3BYV4Z status updated to redeemed
+2024-11-16 13:31:29,852 - INFO - 127.0.0.1 - - [16/Nov/2024 13:31:29] "[31m[1mPOST /sticker?code=ZD3BYV4Z HTTP/1.1[0m" 400 -
+2024-11-16 13:31:32,130 - INFO - 127.0.0.1 - - [16/Nov/2024 13:31:32] "[31m[1mPOST /sticker?code=ZD3BYV4Z HTTP/1.1[0m" 400 -
+2024-11-16 13:31:33,699 - INFO - 127.0.0.1 - - [16/Nov/2024 13:31:33] "[31m[1mPOST /sticker?code=ZD3BYV4Z HTTP/1.1[0m" 400 -
+2024-11-16 13:31:35,812 - INFO - 127.0.0.1 - - [16/Nov/2024 13:31:35] "[31m[1mPOST /sticker?code=ZD3BYV4Z HTTP/1.1[0m" 400 -
+2024-11-16 13:33:35,571 - INFO - Logging system is configured
+2024-11-16 13:33:36,153 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:33:36,421 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 13:33:36,421 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 13:33:56,934 - INFO - 127.0.0.1 - - [16/Nov/2024 13:33:56] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:07,193 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:07] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:08,082 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:08] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:08,743 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:08] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:09,428 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:09] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:10,174 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:10] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:10,890 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:10] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:12,008 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:12] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:12,512 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:12] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:13,666 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:13] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:14,382 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:14] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:34:14,838 - INFO - 127.0.0.1 - - [16/Nov/2024 13:34:14] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:38:54,835 - INFO - Logging system is configured
+2024-11-16 13:38:55,457 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:38:55,718 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 13:38:55,718 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 13:39:02,545 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/stickers/sticker_5.jpg
+2024-11-16 13:39:02,549 - INFO - 127.0.0.1 - - [16/Nov/2024 13:39:02] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:39:04,563 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/stickers/sticker_5.jpg
+2024-11-16 13:39:04,564 - INFO - 127.0.0.1 - - [16/Nov/2024 13:39:04] "[31m[1mPOST /sticker?code=JFW9U70W HTTP/1.1[0m" 400 -
+2024-11-16 13:42:21,623 - INFO - Logging system is configured
+2024-11-16 13:42:22,290 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 13:42:22,550 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 13:42:22,550 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 13:42:29,686 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_5.jpg
+2024-11-16 13:42:29,703 - INFO - Voucher JFW9U70W status updated to redeemed
+2024-11-16 13:42:29,705 - INFO - 127.0.0.1 - - [16/Nov/2024 13:42:29] "POST /sticker?code=JFW9U70W HTTP/1.1" 200 -

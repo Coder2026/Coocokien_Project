@@ -71,7 +71,7 @@ def get_sticker_image():
             # Menghitung indeks berdasarkan teks
             code = request.args.get('code')
 
-            
+
 
             voucher = Voucher.query.filter_by(code=code).first()
 
@@ -139,7 +139,7 @@ def get_sticker_file(index):
         return None
     
 
-def redem_diskon():
+def reedem_diskon():
 
     data = request.get_json()
     vouchers = data.get('vouchers')
@@ -152,23 +152,26 @@ def redem_diskon():
     if len(missing_voucher) != 0:
         return response.badRequest(missing_voucher, "Failed to redeem discount")
     
+    update_discount_status(vouchers)
 
     return response.success([],"Success to redeem discount")
     
 def check_voucher(vouchers):
     
-    existing_code = Voucher.query(Voucher.id).filter(Voucher.code.in_(vouchers)).all()
-    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
-
-    # Cari ID yang tidak ada
+    existing_code = Voucher.query.filter(
+    Voucher.code.in_(vouchers),
+    Voucher.status == True,
+    Voucher.discount_status == False).all()
+   
+    existing_code = [voucher.code for voucher in existing_code] 
+    
     missing_ids = list(set(vouchers) - set(existing_code))
-
     return missing_ids
 
 def update_discount_status(vouchers):
     try:
         # Update semua voucher yang ada di daftar ke status True
-        db.session.query(Voucher).filter(Voucher.code.in_(vouchers)).update(
+        db.session.query.filter(Voucher.code.in_(vouchers)).update(
             {"discount_status": True}, synchronize_session='fetch'
         )
         db.session.commit()  

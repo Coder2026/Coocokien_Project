@@ -455,3 +455,450 @@ TypeError: The view function for 'upload_code' did not return a valid response. 
 2024-11-16 17:18:41,828 - INFO - NumExpr defaulting to 8 threads.
 2024-11-16 17:18:41,828 - INFO - NumExpr defaulting to 8 threads.
 2024-11-16 17:18:41,828 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:53:43,449 - INFO - Logging system is configured
+2024-11-16 17:53:43,449 - INFO - Logging system is configured
+2024-11-16 17:53:43,449 - INFO - Logging system is configured
+2024-11-16 17:53:44,320 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:53:44,320 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:53:44,320 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:53:49,432 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.controller.StikerController' has no attribute 'reedem_diskon'
+2024-11-16 17:53:51,219 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.controller.StikerController' has no attribute 'reedem_diskon'
+2024-11-16 17:53:52,098 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.controller.StikerController' has no attribute 'reedem_diskon'
+2024-11-16 17:53:52,860 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.controller.StikerController' has no attribute 'reedem_diskon'
+2024-11-16 17:54:29,801 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.controller.StikerController' has no attribute 'reedem_diskon'
+2024-11-16 17:54:30,795 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.controller.StikerController' has no attribute 'reedem_diskon'
+2024-11-16 17:58:29,904 - INFO - Logging system is configured
+2024-11-16 17:58:29,904 - INFO - Logging system is configured
+2024-11-16 17:58:29,979 - INFO - Logging system is configured
+2024-11-16 17:58:30,763 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:58:30,763 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:58:30,763 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 17:58:57,542 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 160, in check_voucher
+    existing_code = Voucher.query(Voucher.id).filter(Voucher.code.in_(vouchers)).all()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Query' object is not callable
+2024-11-16 17:58:58,978 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 160, in check_voucher
+    existing_code = Voucher.query(Voucher.id).filter(Voucher.code.in_(vouchers)).all()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Query' object is not callable
+2024-11-16 17:59:00,290 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 160, in check_voucher
+    existing_code = Voucher.query(Voucher.id).filter(Voucher.code.in_(vouchers)).all()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Query' object is not callable
+2024-11-16 18:01:46,979 - INFO - Logging system is configured
+2024-11-16 18:01:46,979 - INFO - Logging system is configured
+2024-11-16 18:01:46,979 - INFO - Logging system is configured
+2024-11-16 18:01:47,759 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 18:01:47,759 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 18:01:47,759 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 18:01:56,727 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in check_voucher
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in <listcomp>
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                     ~~~~^^^
+TypeError: 'Voucher' object is not subscriptable
+2024-11-16 18:01:57,960 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in check_voucher
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in <listcomp>
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                     ~~~~^^^
+TypeError: 'Voucher' object is not subscriptable
+2024-11-16 18:01:58,653 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in check_voucher
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in <listcomp>
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                     ~~~~^^^
+TypeError: 'Voucher' object is not subscriptable
+2024-11-16 18:01:59,328 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in check_voucher
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in <listcomp>
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                     ~~~~^^^
+TypeError: 'Voucher' object is not subscriptable
+2024-11-16 18:01:59,757 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in check_voucher
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in <listcomp>
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                     ~~~~^^^
+TypeError: 'Voucher' object is not subscriptable
+2024-11-16 18:36:43,850 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in check_voucher
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in <listcomp>
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                     ~~~~^^^
+TypeError: 'Voucher' object is not subscriptable
+2024-11-16 18:36:44,917 - ERROR - Exception on /reedem_diskon [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/routes.py", line 21, in reedem_diskon
+    return StikerController.reedem_diskon()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 150, in reedem_diskon
+    missing_voucher = check_voucher(vouchers)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in check_voucher
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 161, in <listcomp>
+    existing_code = [code[0] for code in existing_code]  # Konversi hasil query ke list
+                     ~~~~^^^
+TypeError: 'Voucher' object is not subscriptable
+2024-11-16 18:40:02,890 - INFO - Logging system is configured
+2024-11-16 18:40:02,890 - INFO - Logging system is configured
+2024-11-16 18:40:02,890 - INFO - Logging system is configured
+2024-11-16 18:40:03,685 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 18:40:03,685 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 18:40:03,685 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 20:02:32,960 - INFO - Logging system is configured
+2024-11-16 20:02:32,960 - INFO - Logging system is configured
+2024-11-16 20:02:32,960 - INFO - Logging system is configured
+2024-11-16 20:02:34,345 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 20:02:34,345 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 20:02:34,345 - INFO - NumExpr defaulting to 8 threads.

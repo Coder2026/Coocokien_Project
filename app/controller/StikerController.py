@@ -339,16 +339,19 @@ def get_sticker_byprobability(index):
 
        
         # kita dapat position tapi kita ingin ambil 
+
+       
     
         while newidx > 0 :
             priority = STICKER_PROBABILITY[sorted_records[newidx][1].position]
             current_priorityidx = hash_map[priority]
 
             if current_priorityidx == 0:
-                print(f"current_priorityidx : {current_priorityidx}")
+                newidx = sorted_records[newidx][i].position
                 break
             elif (count_priority[current_priorityidx][1]+1) * count_priority[current_priorityidx-1][0] <= count_priority[current_priorityidx-1][1]:
-                print("kuota memenuhi")
+                newidx = sorted_records[newidx][i].position
+                print("quota fulfilled")
                 break
             else:
                 newidx = newidx - 1

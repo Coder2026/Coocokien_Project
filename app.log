@@ -1928,3 +1928,60 @@ AttributeError: 'ImageDraw' object has no attribute 'textsize'
 2024-11-18 16:44:45,036 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
 2024-11-18 16:44:48,232 - INFO - Voucher E1A8M2YW status updated to redeemed
 2024-11-18 16:44:48,235 - INFO - 127.0.0.1 - - [18/Nov/2024 16:44:48] "POST /sticker?code=E1A8M2YW HTTP/1.1" 200 -
+2024-11-18 19:42:52,845 - INFO - Logging system is configured
+2024-11-18 19:42:53,492 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 19:42:53,799 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 19:42:53,799 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 19:47:28,196 - INFO - Logging system is configured
+2024-11-18 19:47:28,827 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 19:47:29,101 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 19:47:29,101 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 19:48:17,572 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-18 19:48:19,878 - INFO - Voucher FCL16XJR status updated to redeemed
+2024-11-18 19:48:19,879 - INFO - 127.0.0.1 - - [18/Nov/2024 19:48:19] "POST /sticker?code=FCL16XJR HTTP/1.1" 200 -
+2024-11-18 19:49:02,015 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-18 19:49:04,157 - INFO - Voucher E7EROI8F status updated to redeemed
+2024-11-18 19:49:04,158 - INFO - 127.0.0.1 - - [18/Nov/2024 19:49:04] "POST /sticker?code=E7EROI8F HTTP/1.1" 200 -
+2024-11-18 19:49:27,307 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-18 19:49:29,445 - INFO - Voucher 4VKYU8Z2 status updated to redeemed
+2024-11-18 19:49:29,446 - INFO - 127.0.0.1 - - [18/Nov/2024 19:49:29] "POST /sticker?code=4VKYU8Z2 HTTP/1.1" 200 -
+2024-11-18 19:50:09,886 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-18 19:50:12,024 - INFO - Voucher 5XJQ6DGL status updated to redeemed
+2024-11-18 19:50:12,025 - INFO - 127.0.0.1 - - [18/Nov/2024 19:50:12] "POST /sticker?code=5XJQ6DGL HTTP/1.1" 200 -
+2024-11-18 19:50:42,701 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-18 19:50:44,934 - INFO - Voucher Q9WQ3P30 status updated to redeemed
+2024-11-18 19:50:44,935 - INFO - 127.0.0.1 - - [18/Nov/2024 19:50:44] "POST /sticker?code=Q9WQ3P30 HTTP/1.1" 200 -
+2024-11-18 19:51:11,399 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-18 19:51:13,599 - INFO - Voucher 8OC5ZIOQ status updated to redeemed
+2024-11-18 19:51:13,600 - INFO - 127.0.0.1 - - [18/Nov/2024 19:51:13] "POST /sticker?code=8OC5ZIOQ HTTP/1.1" 200 -
+2024-11-18 19:51:45,586 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-18 19:51:47,613 - INFO - Voucher 1Y2MZ5MF status updated to redeemed
+2024-11-18 19:51:47,614 - INFO - 127.0.0.1 - - [18/Nov/2024 19:51:47] "POST /sticker?code=1Y2MZ5MF HTTP/1.1" 200 -
+2024-11-18 19:52:21,171 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-18 19:52:23,200 - INFO - Voucher 7RAL5XKI status updated to redeemed
+2024-11-18 19:52:23,201 - INFO - 127.0.0.1 - - [18/Nov/2024 19:52:23] "POST /sticker?code=7RAL5XKI HTTP/1.1" 200 -
+2024-11-18 19:53:05,203 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_4.jpg
+2024-11-18 19:53:07,333 - INFO - Voucher 0XFJTIKP status updated to redeemed
+2024-11-18 19:53:07,334 - INFO - 127.0.0.1 - - [18/Nov/2024 19:53:07] "POST /sticker?code=0XFJTIKP HTTP/1.1" 200 -
+2024-11-18 19:53:29,926 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 19:53:31,105 - INFO - Voucher HH9XBRDM status updated to redeemed
+2024-11-18 19:53:31,106 - INFO - 127.0.0.1 - - [18/Nov/2024 19:53:31] "POST /sticker?code=HH9XBRDM HTTP/1.1" 200 -
+2024-11-18 19:53:53,331 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 19:53:54,511 - INFO - Voucher 8I54AYGW status updated to redeemed
+2024-11-18 19:53:54,511 - INFO - 127.0.0.1 - - [18/Nov/2024 19:53:54] "POST /sticker?code=8I54AYGW HTTP/1.1" 200 -
+2024-11-18 19:56:11,036 - INFO - Logging system is configured
+2024-11-18 19:56:11,649 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 19:56:11,919 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 19:56:11,920 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 19:56:41,354 - INFO - 127.0.0.1 - - [18/Nov/2024 19:56:41] "[31m[1mPOST /sticker?code=H3YJQQV HTTP/1.1[0m" 400 -
+2024-11-18 19:57:00,042 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-18 19:57:02,358 - INFO - Voucher H3YJQQV4 status updated to redeemed
+2024-11-18 19:57:02,359 - INFO - 127.0.0.1 - - [18/Nov/2024 19:57:02] "POST /sticker?code=H3YJQQV4 HTTP/1.1" 200 -
+2024-11-18 20:16:16,170 - INFO - Logging system is configured
+2024-11-18 20:16:16,821 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 20:16:17,094 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 20:16:17,094 - INFO - [33mPress CTRL+C to quit[0m

@@ -926,3 +926,1005 @@ TypeError: 'Voucher' object is not subscriptable
 2024-11-16 21:01:21,313 - INFO - NumExpr defaulting to 8 threads.
 2024-11-16 21:01:21,351 - INFO - NumExpr defaulting to 8 threads.
 2024-11-16 21:01:21,356 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:10:45,983 - INFO - Logging system is configured
+2024-11-16 23:10:45,983 - INFO - Logging system is configured
+2024-11-16 23:10:45,983 - INFO - Logging system is configured
+2024-11-16 23:10:51,772 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:10:51,772 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:10:51,772 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:12:55,091 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:12:56,199 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:12:59,831 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:12:59,866 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:13:00,904 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:13:00,961 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:13:01,630 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:13:01,660 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:13:02,572 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:13:02,630 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:14:25,481 - INFO - Logging system is configured
+2024-11-16 23:14:26,269 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:15:21,764 - INFO - Logging system is configured
+2024-11-16 23:15:22,430 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:15:22,705 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 23:15:22,705 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 23:15:33,277 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:15:33,333 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:15:33,337 - INFO - 127.0.0.1 - - [16/Nov/2024 23:15:33] "[35m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 500 -
+2024-11-16 23:15:34,312 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:15:34,340 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:15:34,341 - INFO - 127.0.0.1 - - [16/Nov/2024 23:15:34] "[35m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 500 -
+2024-11-16 23:15:34,971 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:15:35,007 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:15:35,008 - INFO - 127.0.0.1 - - [16/Nov/2024 23:15:35] "[35m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 500 -
+2024-11-16 23:15:35,298 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:15:35,331 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:15:35,333 - INFO - 127.0.0.1 - - [16/Nov/2024 23:15:35] "[35m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 500 -
+2024-11-16 23:15:35,613 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:15:35,646 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:15:35,647 - INFO - 127.0.0.1 - - [16/Nov/2024 23:15:35] "[35m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 500 -
+2024-11-16 23:15:36,331 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:15:36,365 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-16 23:15:36,367 - INFO - 127.0.0.1 - - [16/Nov/2024 23:15:36] "[35m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 500 -
+2024-11-16 23:19:48,463 - INFO - Logging system is configured
+2024-11-16 23:19:49,218 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:19:49,512 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 23:19:49,512 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 23:19:59,839 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:20:03,144 - INFO - 127.0.0.1 - - [16/Nov/2024 23:20:03] "[31m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 400 -
+2024-11-16 23:20:05,971 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:20:09,241 - INFO - 127.0.0.1 - - [16/Nov/2024 23:20:09] "[31m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 400 -
+2024-11-16 23:23:58,846 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:24:02,146 - INFO - 127.0.0.1 - - [16/Nov/2024 23:24:02] "[31m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 400 -
+2024-11-16 23:24:03,706 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:24:06,961 - INFO - 127.0.0.1 - - [16/Nov/2024 23:24:06] "[31m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 400 -
+2024-11-16 23:29:42,813 - INFO - Logging system is configured
+2024-11-16 23:29:43,507 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:29:43,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 23:29:43,776 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 23:29:54,211 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:29:54,212 - INFO - Starting modify_sticker function
+2024-11-16 23:29:54,212 - INFO - Sticker file found: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-16 23:29:54,255 - INFO - Image opened successfully
+2024-11-16 23:29:54,259 - WARNING - Font 'arial.ttf' not found. Using default font.
+2024-11-16 23:29:54,262 - INFO - Text '59QIGLHA' added to the image
+2024-11-16 23:29:57,487 - INFO - Image saved to memory buffer
+2024-11-16 23:29:57,487 - INFO - Sending modified sticker to client
+2024-11-16 23:29:57,507 - INFO - Voucher 59QIGLHA status updated to redeemed
+2024-11-16 23:29:57,508 - INFO - 127.0.0.1 - - [16/Nov/2024 23:29:57] "POST /sticker?code=59QIGLHA HTTP/1.1" 200 -
+2024-11-16 23:30:18,105 - INFO - 127.0.0.1 - - [16/Nov/2024 23:30:18] "[31m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 400 -
+2024-11-16 23:30:19,714 - INFO - 127.0.0.1 - - [16/Nov/2024 23:30:19] "[31m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 400 -
+2024-11-16 23:30:20,625 - INFO - 127.0.0.1 - - [16/Nov/2024 23:30:20] "[31m[1mPOST /sticker?code=59QIGLHA HTTP/1.1[0m" 400 -
+2024-11-16 23:31:02,672 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-16 23:31:02,675 - INFO - Starting modify_sticker function
+2024-11-16 23:31:02,675 - INFO - Sticker file found: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-16 23:31:02,779 - INFO - Image opened successfully
+2024-11-16 23:31:02,783 - WARNING - Font 'arial.ttf' not found. Using default font.
+2024-11-16 23:31:02,789 - INFO - Text 'H0MMS5L3' added to the image
+2024-11-16 23:31:08,893 - INFO - Image saved to memory buffer
+2024-11-16 23:31:08,893 - INFO - Sending modified sticker to client
+2024-11-16 23:31:08,919 - INFO - Voucher H0MMS5L3 status updated to redeemed
+2024-11-16 23:31:08,920 - INFO - 127.0.0.1 - - [16/Nov/2024 23:31:08] "POST /sticker?code=H0MMS5L3 HTTP/1.1" 200 -
+2024-11-16 23:32:04,748 - INFO - 127.0.0.1 - - [16/Nov/2024 23:32:04] "[31m[1mPOST /sticker?code=H0MMS5L3 HTTP/1.1[0m" 400 -
+2024-11-16 23:32:06,106 - INFO - 127.0.0.1 - - [16/Nov/2024 23:32:06] "[31m[1mPOST /sticker?code=H0MMS5L3 HTTP/1.1[0m" 400 -
+2024-11-16 23:32:06,863 - INFO - 127.0.0.1 - - [16/Nov/2024 23:32:06] "[31m[1mPOST /sticker?code=H0MMS5L3 HTTP/1.1[0m" 400 -
+2024-11-16 23:33:39,311 - INFO - Logging system is configured
+2024-11-16 23:33:40,034 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:33:40,298 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 23:33:40,298 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 23:34:00,862 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_5.jpg
+2024-11-16 23:34:00,863 - INFO - Starting modify_sticker function
+2024-11-16 23:34:00,969 - INFO - Image loaded successfully
+2024-11-16 23:34:00,973 - INFO - Text '8CNZQ2ZE' added to the image
+2024-11-16 23:34:06,834 - INFO - Image saved to memory buffer
+2024-11-16 23:34:06,855 - INFO - Voucher 8CNZQ2ZE status updated to redeemed
+2024-11-16 23:34:06,856 - INFO - 127.0.0.1 - - [16/Nov/2024 23:34:06] "POST /sticker?code=8CNZQ2ZE HTTP/1.1" 200 -
+2024-11-16 23:34:09,939 - INFO - 127.0.0.1 - - [16/Nov/2024 23:34:09] "[31m[1mPOST /sticker?code=8CNZQ2ZE HTTP/1.1[0m" 400 -
+2024-11-16 23:34:11,121 - INFO - 127.0.0.1 - - [16/Nov/2024 23:34:11] "[31m[1mPOST /sticker?code=8CNZQ2ZE HTTP/1.1[0m" 400 -
+2024-11-16 23:34:12,191 - INFO - 127.0.0.1 - - [16/Nov/2024 23:34:12] "[31m[1mPOST /sticker?code=8CNZQ2ZE HTTP/1.1[0m" 400 -
+2024-11-16 23:40:59,386 - INFO - Logging system is configured
+2024-11-16 23:41:00,095 - INFO - NumExpr defaulting to 8 threads.
+2024-11-16 23:41:00,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 23:41:00,361 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 23:41:27,557 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-16 23:41:27,558 - INFO - Starting modify_sticker function
+2024-11-16 23:41:27,672 - INFO - Image loaded successfully
+2024-11-16 23:41:27,673 - INFO - Calculated font size: 259
+2024-11-16 23:41:27,684 - WARNING - Font 'arial.ttf' not found. Using default font.
+2024-11-16 23:41:27,684 - ERROR - Error in modify_sticker: 'ImageDraw' object has no attribute 'textsize'
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/Documents/Coocokien_Project/app/controller/StikerController.py", line 215, in modify_sticker
+    text_width, text_height = draw.textsize(code, font=font)
+                              ^^^^^^^^^^^^^
+AttributeError: 'ImageDraw' object has no attribute 'textsize'
+2024-11-16 23:41:27,703 - INFO - Voucher 1DKFO857 status updated to redeemed
+2024-11-16 23:41:27,704 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:27] "[35m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 500 -
+2024-11-16 23:41:30,847 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:30] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-16 23:41:33,789 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:33] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-16 23:41:34,481 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:34] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-16 23:41:34,811 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:34] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-16 23:41:35,831 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:35] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-16 23:41:36,189 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:36] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-16 23:41:36,792 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:36] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-16 23:41:37,807 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:37] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-16 23:41:39,444 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:39] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-16 23:41:40,039 - INFO - 127.0.0.1 - - [16/Nov/2024 23:41:40] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-17 00:36:02,906 - INFO - Logging system is configured
+2024-11-17 00:36:03,840 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 00:36:04,149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 00:36:04,149 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 00:37:00,235 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_4.jpg
+2024-11-17 00:37:00,444 - INFO - Voucher Z34IEFGV status updated to redeemed
+2024-11-17 00:37:00,445 - INFO - 127.0.0.1 - - [17/Nov/2024 00:37:00] "[35m[1mPOST /sticker?code=Z34IEFGV HTTP/1.1[0m" 500 -
+2024-11-17 00:37:08,220 - INFO - 127.0.0.1 - - [17/Nov/2024 00:37:08] "[31m[1mPOST /sticker?code=Z34IEFGV HTTP/1.1[0m" 400 -
+2024-11-17 00:37:10,273 - INFO - 127.0.0.1 - - [17/Nov/2024 00:37:10] "[31m[1mPOST /sticker?code=Z34IEFGV HTTP/1.1[0m" 400 -
+2024-11-17 00:38:14,440 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:14] "[31m[1mPOST /sticker?code=8CNZQ2ZE HTTP/1.1[0m" 400 -
+2024-11-17 00:38:22,969 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:22] "[31m[1mPOST /sticker?code=8CNZQ2ZE HTTP/1.1[0m" 400 -
+2024-11-17 00:38:23,793 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:23] "[31m[1mPOST /sticker?code=8CNZQ2ZE HTTP/1.1[0m" 400 -
+2024-11-17 00:38:42,804 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:42] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-17 00:38:44,617 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:44] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-17 00:38:45,257 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:45] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-17 00:38:45,660 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:45] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-17 00:38:45,970 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:45] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-17 00:38:48,092 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:48] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-17 00:38:49,062 - INFO - 127.0.0.1 - - [17/Nov/2024 00:38:49] "[31m[1mPOST /sticker?code=1DKFO857 HTTP/1.1[0m" 400 -
+2024-11-17 00:39:14,526 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-17 00:39:14,584 - INFO - Voucher HXW2109Z status updated to redeemed
+2024-11-17 00:39:14,585 - INFO - 127.0.0.1 - - [17/Nov/2024 00:39:14] "[35m[1mPOST /sticker?code=HXW2109Z HTTP/1.1[0m" 500 -
+2024-11-17 10:30:29,208 - INFO - Logging system is configured
+2024-11-17 10:30:30,510 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:30:30,995 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:30:30,995 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:32:49,649 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-17 10:32:49,788 - INFO - Voucher XAYWO7AC status updated to redeemed
+2024-11-17 10:32:49,789 - INFO - 127.0.0.1 - - [17/Nov/2024 10:32:49] "[35m[1mPOST /sticker?code=XAYWO7AC HTTP/1.1[0m" 500 -
+2024-11-17 10:33:01,151 - INFO - 127.0.0.1 - - [17/Nov/2024 10:33:01] "[31m[1mPOST /sticker?code=XAYWO7AC HTTP/1.1[0m" 400 -
+2024-11-17 10:33:03,478 - INFO - 127.0.0.1 - - [17/Nov/2024 10:33:03] "[31m[1mPOST /sticker?code=XAYWO7AC HTTP/1.1[0m" 400 -
+2024-11-17 10:33:04,280 - INFO - 127.0.0.1 - - [17/Nov/2024 10:33:04] "[31m[1mPOST /sticker?code=XAYWO7AC HTTP/1.1[0m" 400 -
+2024-11-17 10:37:27,558 - INFO - Logging system is configured
+2024-11-17 10:37:28,161 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:37:28,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:37:28,427 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:38:02,354 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:38:02,472 - INFO - Voucher RB6C8F1B status updated to redeemed
+2024-11-17 10:38:02,473 - INFO - 127.0.0.1 - - [17/Nov/2024 10:38:02] "[35m[1mPOST /sticker?code=RB6C8F1B HTTP/1.1[0m" 500 -
+2024-11-17 10:38:11,206 - INFO - 127.0.0.1 - - [17/Nov/2024 10:38:11] "[31m[1mPOST /sticker?code=RB6C8F1B HTTP/1.1[0m" 400 -
+2024-11-17 10:38:12,541 - INFO - 127.0.0.1 - - [17/Nov/2024 10:38:12] "[31m[1mPOST /sticker?code=RB6C8F1B HTTP/1.1[0m" 400 -
+2024-11-17 10:40:13,418 - INFO - Logging system is configured
+2024-11-17 10:40:13,980 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:40:14,237 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:40:14,237 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:40:41,017 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:40:41,093 - INFO - 127.0.0.1 - - [17/Nov/2024 10:40:41] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:40:43,025 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:40:43,082 - INFO - 127.0.0.1 - - [17/Nov/2024 10:40:43] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:40:43,848 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:40:43,905 - INFO - 127.0.0.1 - - [17/Nov/2024 10:40:43] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:40:44,189 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:40:44,240 - INFO - 127.0.0.1 - - [17/Nov/2024 10:40:44] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:40:46,608 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:40:46,666 - INFO - 127.0.0.1 - - [17/Nov/2024 10:40:46] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:40:47,326 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:40:47,385 - INFO - 127.0.0.1 - - [17/Nov/2024 10:40:47] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:40:47,990 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:40:48,043 - INFO - 127.0.0.1 - - [17/Nov/2024 10:40:48] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:45:47,728 - INFO - Logging system is configured
+2024-11-17 10:45:48,423 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:45:48,701 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:45:48,701 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:45:58,019 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:45:58,106 - INFO - 127.0.0.1 - - [17/Nov/2024 10:45:58] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:45:59,042 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:45:59,096 - INFO - 127.0.0.1 - - [17/Nov/2024 10:45:59] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:46:51,687 - INFO - Logging system is configured
+2024-11-17 10:46:52,008 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:46:52,211 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:46:52,211 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:46:59,753 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:46:59,819 - INFO - 127.0.0.1 - - [17/Nov/2024 10:46:59] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:47:25,000 - INFO - Logging system is configured
+2024-11-17 10:47:25,348 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:47:25,570 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:47:25,570 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:47:31,142 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:47:31,212 - INFO - 127.0.0.1 - - [17/Nov/2024 10:47:31] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:47:57,584 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:47:57,642 - INFO - 127.0.0.1 - - [17/Nov/2024 10:47:57] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:49:25,534 - INFO - Logging system is configured
+2024-11-17 10:49:25,881 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:49:26,106 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:49:26,106 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:49:29,406 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:49:29,476 - INFO - 127.0.0.1 - - [17/Nov/2024 10:49:29] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:50:39,850 - INFO - Logging system is configured
+2024-11-17 10:50:40,205 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:50:40,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:50:40,427 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:50:50,976 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:50:51,051 - INFO - 127.0.0.1 - - [17/Nov/2024 10:50:51] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:52:11,604 - INFO - Logging system is configured
+2024-11-17 10:52:12,218 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:52:12,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:52:12,489 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:52:17,308 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:52:17,382 - INFO - 127.0.0.1 - - [17/Nov/2024 10:52:17] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:53:13,769 - INFO - Logging system is configured
+2024-11-17 10:53:14,119 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:53:14,333 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:53:14,333 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:53:18,773 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:53:18,843 - INFO - 127.0.0.1 - - [17/Nov/2024 10:53:18] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:54:22,938 - INFO - Logging system is configured
+2024-11-17 10:54:23,438 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:54:23,658 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:54:23,658 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:54:27,328 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:54:27,400 - INFO - 127.0.0.1 - - [17/Nov/2024 10:54:27] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 10:56:07,516 - INFO - Logging system is configured
+2024-11-17 10:56:07,851 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 10:56:08,075 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 10:56:08,075 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 10:56:13,062 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 10:56:16,922 - INFO - Voucher Z9B6EGPG status updated to redeemed
+2024-11-17 10:56:16,923 - INFO - 127.0.0.1 - - [17/Nov/2024 10:56:16] "POST /sticker?code=Z9B6EGPG HTTP/1.1" 200 -
+2024-11-17 11:01:03,363 - INFO - Logging system is configured
+2024-11-17 11:01:04,051 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:01:04,327 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:01:04,327 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:01:08,300 - INFO - 127.0.0.1 - - [17/Nov/2024 11:01:08] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 11:01:09,317 - INFO - 127.0.0.1 - - [17/Nov/2024 11:01:09] "[31m[1mPOST /sticker?code=Z9B6EGPG HTTP/1.1[0m" 400 -
+2024-11-17 11:01:33,282 - INFO - Logging system is configured
+2024-11-17 11:01:33,893 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:01:34,134 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:01:34,135 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:01:41,439 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_4.jpg
+2024-11-17 11:01:47,674 - INFO - Voucher W1FW8QIS status updated to redeemed
+2024-11-17 11:01:47,676 - INFO - 127.0.0.1 - - [17/Nov/2024 11:01:47] "POST /sticker?code=W1FW8QIS HTTP/1.1" 200 -
+2024-11-17 11:14:06,421 - INFO - Logging system is configured
+2024-11-17 11:14:07,019 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:14:07,280 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:14:07,280 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:14:29,323 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:14:35,520 - INFO - Voucher F7RRVY4K status updated to redeemed
+2024-11-17 11:14:35,522 - INFO - 127.0.0.1 - - [17/Nov/2024 11:14:35] "POST /sticker?code=F7RRVY4K HTTP/1.1" 200 -
+2024-11-17 11:28:10,787 - INFO - Logging system is configured
+2024-11-17 11:28:12,173 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:28:12,622 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:28:12,622 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:28:37,559 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:28:43,654 - INFO - Voucher LAJTNN2J status updated to redeemed
+2024-11-17 11:28:43,655 - INFO - 127.0.0.1 - - [17/Nov/2024 11:28:43] "POST /sticker?code=LAJTNN2J HTTP/1.1" 200 -
+2024-11-17 11:47:44,082 - INFO - Logging system is configured
+2024-11-17 11:47:45,490 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:47:45,986 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:47:45,986 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:48:24,983 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 11:48:25,114 - INFO - 127.0.0.1 - - [17/Nov/2024 11:48:25] "[31m[1mPOST /sticker?code=76LHPRP5 HTTP/1.1[0m" 400 -
+2024-11-17 11:48:29,162 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 11:48:29,218 - INFO - 127.0.0.1 - - [17/Nov/2024 11:48:29] "[31m[1mPOST /sticker?code=76LHPRP5 HTTP/1.1[0m" 400 -
+2024-11-17 11:48:30,041 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 11:48:30,096 - INFO - 127.0.0.1 - - [17/Nov/2024 11:48:30] "[31m[1mPOST /sticker?code=76LHPRP5 HTTP/1.1[0m" 400 -
+2024-11-17 11:48:30,943 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 11:48:30,999 - INFO - 127.0.0.1 - - [17/Nov/2024 11:48:30] "[31m[1mPOST /sticker?code=76LHPRP5 HTTP/1.1[0m" 400 -
+2024-11-17 11:51:11,850 - INFO - Logging system is configured
+2024-11-17 11:51:12,421 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:51:12,681 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:51:12,681 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:51:23,191 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 11:51:23,277 - INFO - 127.0.0.1 - - [17/Nov/2024 11:51:23] "[31m[1mPOST /sticker?code=76LHPRP5 HTTP/1.1[0m" 400 -
+2024-11-17 11:53:24,633 - INFO - Logging system is configured
+2024-11-17 11:53:25,250 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:53:25,504 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:53:25,504 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:53:31,279 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:53:31,396 - INFO - 127.0.0.1 - - [17/Nov/2024 11:53:31] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:53:32,629 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:53:32,721 - INFO - 127.0.0.1 - - [17/Nov/2024 11:53:32] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:53:33,460 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:53:33,547 - INFO - 127.0.0.1 - - [17/Nov/2024 11:53:33] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:56:02,862 - INFO - Logging system is configured
+2024-11-17 11:56:03,493 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:56:03,762 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:56:03,762 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:56:11,553 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:56:11,667 - INFO - 127.0.0.1 - - [17/Nov/2024 11:56:11] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:56:13,231 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:56:13,320 - INFO - 127.0.0.1 - - [17/Nov/2024 11:56:13] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:22,910 - INFO - Logging system is configured
+2024-11-17 11:58:23,483 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:58:23,757 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:58:23,757 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:58:28,009 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:28,124 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:28] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:29,279 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:29,370 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:29] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:29,921 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:30,008 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:30] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:30,594 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:30,696 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:30] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:32,213 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:32,303 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:32] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:32,856 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:32,945 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:32] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:33,396 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:33,481 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:33] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:33,918 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:34,008 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:34] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:34,332 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:34,418 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:34] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:35,075 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:35,162 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:35] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:58:35,610 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:58:35,701 - INFO - 127.0.0.1 - - [17/Nov/2024 11:58:35] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 11:59:16,622 - INFO - Logging system is configured
+2024-11-17 11:59:17,221 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 11:59:17,468 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 11:59:17,468 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 11:59:29,633 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 11:59:29,746 - INFO - 127.0.0.1 - - [17/Nov/2024 11:59:29] "[31m[1mPOST /sticker?code=NJZLGQC6 HTTP/1.1[0m" 400 -
+2024-11-17 12:01:18,126 - INFO - Logging system is configured
+2024-11-17 12:01:18,711 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 12:01:18,971 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 12:01:18,971 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 12:01:23,968 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 12:01:30,078 - INFO - Voucher NJZLGQC6 status updated to redeemed
+2024-11-17 12:01:30,079 - INFO - 127.0.0.1 - - [17/Nov/2024 12:01:30] "POST /sticker?code=NJZLGQC6 HTTP/1.1" 200 -
+2024-11-17 12:02:46,133 - INFO - Logging system is configured
+2024-11-17 12:02:46,780 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 12:02:47,050 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 12:02:47,050 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 12:02:51,097 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-17 12:02:54,930 - INFO - Voucher 76LHPRP5 status updated to redeemed
+2024-11-17 12:02:54,931 - INFO - 127.0.0.1 - - [17/Nov/2024 12:02:54] "POST /sticker?code=76LHPRP5 HTTP/1.1" 200 -
+2024-11-17 12:34:15,666 - INFO - Logging system is configured
+2024-11-17 12:34:16,275 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 12:34:16,535 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 12:34:16,535 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 12:34:58,281 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-17 12:34:58,932 - INFO - Voucher JQ7NP8OJ status updated to redeemed
+2024-11-17 12:34:58,934 - INFO - 127.0.0.1 - - [17/Nov/2024 12:34:58] "POST /sticker?code=JQ7NP8OJ HTTP/1.1" 200 -
+2024-11-17 12:44:54,510 - INFO - Logging system is configured
+2024-11-17 12:44:55,145 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 12:45:00,906 - INFO - Logging system is configured
+2024-11-17 12:45:01,186 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 12:45:01,389 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 12:45:01,389 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 12:45:32,374 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_4.jpg
+2024-11-17 12:45:42,643 - INFO - Voucher BRCZYWL5 status updated to redeemed
+2024-11-17 12:45:42,644 - INFO - 127.0.0.1 - - [17/Nov/2024 12:45:42] "POST /sticker?code=BRCZYWL5 HTTP/1.1" 200 -
+2024-11-17 12:49:32,658 - INFO - Logging system is configured
+2024-11-17 12:49:33,336 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 12:49:33,599 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 12:49:33,599 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 12:49:44,614 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-17 12:49:45,215 - INFO - Voucher 70V6ACSS status updated to redeemed
+2024-11-17 12:49:45,216 - INFO - 127.0.0.1 - - [17/Nov/2024 12:49:45] "POST /sticker?code=70V6ACSS HTTP/1.1" 200 -
+2024-11-17 12:49:54,033 - INFO - 127.0.0.1 - - [17/Nov/2024 12:49:54] "[31m[1mPOST /sticker?code=70V6ACSS HTTP/1.1[0m" 400 -
+2024-11-17 12:49:55,373 - INFO - 127.0.0.1 - - [17/Nov/2024 12:49:55] "[31m[1mPOST /sticker?code=70V6ACSS HTTP/1.1[0m" 400 -
+2024-11-17 12:50:19,043 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-17 12:50:19,622 - INFO - Voucher MH5P4778 status updated to redeemed
+2024-11-17 12:50:19,622 - INFO - 127.0.0.1 - - [17/Nov/2024 12:50:19] "POST /sticker?code=MH5P4778 HTTP/1.1" 200 -
+2024-11-17 12:50:24,497 - INFO - 127.0.0.1 - - [17/Nov/2024 12:50:24] "[31m[1mPOST /sticker?code=MH5P4778 HTTP/1.1[0m" 400 -
+2024-11-17 12:50:25,605 - INFO - 127.0.0.1 - - [17/Nov/2024 12:50:25] "[31m[1mPOST /sticker?code=MH5P4778 HTTP/1.1[0m" 400 -
+2024-11-17 12:50:44,143 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_4.jpg
+2024-11-17 12:50:44,888 - INFO - Voucher DGHUY2I0 status updated to redeemed
+2024-11-17 12:50:44,889 - INFO - 127.0.0.1 - - [17/Nov/2024 12:50:44] "POST /sticker?code=DGHUY2I0 HTTP/1.1" 200 -
+2024-11-17 12:50:46,662 - INFO - 127.0.0.1 - - [17/Nov/2024 12:50:46] "[31m[1mPOST /sticker?code=DGHUY2I0 HTTP/1.1[0m" 400 -
+2024-11-17 12:50:47,719 - INFO - 127.0.0.1 - - [17/Nov/2024 12:50:47] "[31m[1mPOST /sticker?code=DGHUY2I0 HTTP/1.1[0m" 400 -
+2024-11-17 12:51:53,960 - INFO - Logging system is configured
+2024-11-17 12:51:54,560 - INFO - NumExpr defaulting to 8 threads.
+2024-11-17 12:51:54,821 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 12:51:54,821 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 12:52:14,337 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-17 12:52:16,476 - INFO - Voucher E1B096O1 status updated to redeemed
+2024-11-17 12:52:16,477 - INFO - 127.0.0.1 - - [17/Nov/2024 12:52:16] "POST /sticker?code=E1B096O1 HTTP/1.1" 200 -
+2024-11-18 01:23:48,847 - INFO - Logging system is configured
+2024-11-18 01:23:50,388 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:23:50,902 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 01:23:50,902 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 01:24:13,191 - INFO - Logging system is configured
+2024-11-18 01:24:13,748 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:24:13,993 - ERROR - Error: Directory migrations already exists and is not empty
+2024-11-18 01:34:00,609 - INFO - Logging system is configured
+2024-11-18 01:34:01,278 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:34:12,240 - INFO - Logging system is configured
+2024-11-18 01:34:12,803 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:34:30,819 - INFO - Logging system is configured
+2024-11-18 01:34:31,389 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:43:01,842 - INFO - Logging system is configured
+2024-11-18 01:43:02,524 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:44:10,541 - INFO - Logging system is configured
+2024-11-18 01:44:11,283 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:45:39,900 - INFO - Logging system is configured
+2024-11-18 01:45:40,530 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:47:30,796 - INFO - Logging system is configured
+2024-11-18 01:47:31,425 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:48:19,165 - INFO - Logging system is configured
+2024-11-18 01:48:19,808 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:48:20,107 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 01:48:20,107 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 01:52:17,722 - INFO - Logging system is configured
+2024-11-18 01:52:18,348 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:52:18,690 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 01:52:18,690 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 01:52:50,900 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 01:52:50,903 - INFO - 127.0.0.1 - - [18/Nov/2024 01:52:50] "[31m[1mPOST /sticker?code=Q2WTZZRY HTTP/1.1[0m" 400 -
+2024-11-18 01:52:52,975 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 01:52:52,977 - INFO - 127.0.0.1 - - [18/Nov/2024 01:52:52] "[31m[1mPOST /sticker?code=Q2WTZZRY HTTP/1.1[0m" 400 -
+2024-11-18 01:52:54,004 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 01:52:54,005 - INFO - 127.0.0.1 - - [18/Nov/2024 01:52:54] "[31m[1mPOST /sticker?code=Q2WTZZRY HTTP/1.1[0m" 400 -
+2024-11-18 01:52:54,861 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 01:52:54,863 - INFO - 127.0.0.1 - - [18/Nov/2024 01:52:54] "[31m[1mPOST /sticker?code=Q2WTZZRY HTTP/1.1[0m" 400 -
+2024-11-18 01:52:56,069 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 01:52:56,071 - INFO - 127.0.0.1 - - [18/Nov/2024 01:52:56] "[31m[1mPOST /sticker?code=Q2WTZZRY HTTP/1.1[0m" 400 -
+2024-11-18 01:52:57,342 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 01:52:57,343 - INFO - 127.0.0.1 - - [18/Nov/2024 01:52:57] "[31m[1mPOST /sticker?code=Q2WTZZRY HTTP/1.1[0m" 400 -
+2024-11-18 01:53:31,849 - INFO - Logging system is configured
+2024-11-18 01:53:32,439 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 01:53:32,705 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 01:53:32,705 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 01:54:46,366 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 01:54:46,378 - INFO - 127.0.0.1 - - [18/Nov/2024 01:54:46] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:00:01,011 - INFO - Logging system is configured
+2024-11-18 02:00:01,672 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 02:00:01,941 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 02:00:01,941 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 02:00:09,820 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:00:09,824 - INFO - 127.0.0.1 - - [18/Nov/2024 02:00:09] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:05:56,004 - INFO - Logging system is configured
+2024-11-18 02:05:56,653 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 02:05:56,917 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 02:05:56,917 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 02:06:08,290 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:06:08,293 - INFO - 127.0.0.1 - - [18/Nov/2024 02:06:08] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:06:57,671 - INFO - Logging system is configured
+2024-11-18 02:06:58,012 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 02:06:58,244 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 02:06:58,244 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 02:07:02,232 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:07:02,234 - INFO - 127.0.0.1 - - [18/Nov/2024 02:07:02] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:07:32,596 - INFO - Logging system is configured
+2024-11-18 02:07:32,909 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 02:07:33,118 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 02:07:33,118 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 02:07:40,346 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:07:40,348 - INFO - 127.0.0.1 - - [18/Nov/2024 02:07:40] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:14:10,500 - INFO - Logging system is configured
+2024-11-18 02:14:11,130 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 02:14:11,401 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 02:14:11,401 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 02:14:16,283 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:14:16,285 - INFO - 127.0.0.1 - - [18/Nov/2024 02:14:16] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:14:17,581 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:14:17,583 - INFO - 127.0.0.1 - - [18/Nov/2024 02:14:17] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:15:50,693 - INFO - Logging system is configured
+2024-11-18 02:15:51,049 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 02:15:51,274 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 02:15:51,274 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 02:15:54,868 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:15:54,869 - INFO - 127.0.0.1 - - [18/Nov/2024 02:15:54] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:17:06,086 - INFO - Logging system is configured
+2024-11-18 02:17:06,438 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 02:17:06,665 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 02:17:06,665 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 02:17:16,708 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:17:16,715 - INFO - 127.0.0.1 - - [18/Nov/2024 02:17:16] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:17:20,006 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:17:20,008 - INFO - 127.0.0.1 - - [18/Nov/2024 02:17:20] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 02:17:55,051 - INFO - Logging system is configured
+2024-11-18 02:17:55,389 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 02:17:55,625 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 02:17:55,625 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 02:17:58,932 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 02:17:58,933 - INFO - 127.0.0.1 - - [18/Nov/2024 02:17:58] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 10:21:44,016 - INFO - Logging system is configured
+2024-11-18 10:21:45,453 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 10:21:45,952 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 10:21:45,952 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 10:22:03,595 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 10:22:03,597 - INFO - 127.0.0.1 - - [18/Nov/2024 10:22:03] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 10:37:47,136 - INFO - Logging system is configured
+2024-11-18 10:37:47,739 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 10:37:48,001 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 10:37:48,001 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 10:37:54,547 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 10:37:54,549 - INFO - 127.0.0.1 - - [18/Nov/2024 10:37:54] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 10:55:09,095 - INFO - Logging system is configured
+2024-11-18 10:55:09,726 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 10:55:09,992 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 10:55:09,992 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 10:55:26,148 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 10:55:26,151 - INFO - 127.0.0.1 - - [18/Nov/2024 10:55:26] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 10:57:18,015 - INFO - Logging system is configured
+2024-11-18 10:57:18,379 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 10:57:18,612 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 10:57:18,612 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 10:57:22,084 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 10:57:22,085 - INFO - 127.0.0.1 - - [18/Nov/2024 10:57:22] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 10:58:19,293 - INFO - Logging system is configured
+2024-11-18 10:58:19,708 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 10:58:19,935 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 10:58:19,935 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 10:58:23,078 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 10:58:23,080 - INFO - 127.0.0.1 - - [18/Nov/2024 10:58:23] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 10:59:54,839 - INFO - Logging system is configured
+2024-11-18 10:59:55,210 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 10:59:55,437 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 10:59:55,437 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 10:59:58,620 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 10:59:58,621 - INFO - 127.0.0.1 - - [18/Nov/2024 10:59:58] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:00:28,020 - INFO - Logging system is configured
+2024-11-18 11:00:28,333 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:00:28,544 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:00:28,544 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:00:32,114 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:00:32,116 - INFO - 127.0.0.1 - - [18/Nov/2024 11:00:32] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:01:08,418 - INFO - Logging system is configured
+2024-11-18 11:01:08,784 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:01:09,010 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:01:09,010 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:01:12,725 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:01:12,726 - INFO - 127.0.0.1 - - [18/Nov/2024 11:01:12] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:04:30,581 - INFO - Logging system is configured
+2024-11-18 11:04:31,188 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:04:31,460 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:04:31,460 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:04:34,548 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:04:34,549 - INFO - 127.0.0.1 - - [18/Nov/2024 11:04:34] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:07:47,121 - INFO - Logging system is configured
+2024-11-18 11:07:47,470 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:07:47,695 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:07:47,695 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:07:52,214 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:07:52,215 - INFO - 127.0.0.1 - - [18/Nov/2024 11:07:52] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:09:30,484 - INFO - Logging system is configured
+2024-11-18 11:09:31,076 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:09:31,342 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:09:31,342 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:09:34,569 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:09:34,571 - INFO - 127.0.0.1 - - [18/Nov/2024 11:09:34] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:12:33,727 - INFO - Logging system is configured
+2024-11-18 11:12:34,322 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:12:34,587 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:12:34,587 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:12:38,084 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:12:38,087 - INFO - 127.0.0.1 - - [18/Nov/2024 11:12:38] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:56:21,439 - INFO - Logging system is configured
+2024-11-18 11:56:22,050 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:56:22,326 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:56:22,326 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:56:30,938 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:56:30,941 - INFO - 127.0.0.1 - - [18/Nov/2024 11:56:30] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:57:37,036 - INFO - Logging system is configured
+2024-11-18 11:57:37,657 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:57:37,922 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:57:37,922 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:57:41,816 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:57:41,819 - INFO - 127.0.0.1 - - [18/Nov/2024 11:57:41] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:58:29,118 - INFO - Logging system is configured
+2024-11-18 11:58:29,465 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:58:29,697 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:58:29,697 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:58:32,618 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:58:32,619 - INFO - 127.0.0.1 - - [18/Nov/2024 11:58:32] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:59:01,484 - INFO - Logging system is configured
+2024-11-18 11:59:01,834 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:59:02,049 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:59:02,050 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:59:04,344 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:59:04,345 - INFO - 127.0.0.1 - - [18/Nov/2024 11:59:04] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 11:59:35,124 - INFO - Logging system is configured
+2024-11-18 11:59:35,480 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 11:59:35,709 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 11:59:35,709 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 11:59:39,506 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 11:59:39,508 - INFO - 127.0.0.1 - - [18/Nov/2024 11:59:39] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:04:51,175 - INFO - Logging system is configured
+2024-11-18 12:04:51,807 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:04:52,082 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:04:52,082 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:07:12,269 - INFO - Logging system is configured
+2024-11-18 12:07:12,620 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:07:12,857 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:07:12,857 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:07:20,643 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:07:20,646 - INFO - 127.0.0.1 - - [18/Nov/2024 12:07:20] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:07:54,717 - INFO - Logging system is configured
+2024-11-18 12:07:55,038 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:07:55,240 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:07:55,240 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:07:58,468 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:07:58,471 - INFO - 127.0.0.1 - - [18/Nov/2024 12:07:58] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:09:25,508 - INFO - Logging system is configured
+2024-11-18 12:09:25,850 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:09:26,085 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:09:26,085 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:09:30,859 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:09:30,860 - INFO - 127.0.0.1 - - [18/Nov/2024 12:09:30] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:10:30,025 - INFO - Logging system is configured
+2024-11-18 12:10:30,376 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:10:30,605 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:10:30,605 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:10:33,981 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:10:33,983 - INFO - 127.0.0.1 - - [18/Nov/2024 12:10:33] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:11:14,130 - INFO - Logging system is configured
+2024-11-18 12:11:14,531 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:11:14,749 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:11:14,749 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:11:17,992 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:11:17,994 - INFO - 127.0.0.1 - - [18/Nov/2024 12:11:17] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:11:18,383 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:11:18,384 - INFO - 127.0.0.1 - - [18/Nov/2024 12:11:18] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:12:26,053 - INFO - Logging system is configured
+2024-11-18 12:12:26,405 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:12:26,633 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:12:26,633 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:12:30,289 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:12:30,291 - INFO - 127.0.0.1 - - [18/Nov/2024 12:12:30] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:13:15,935 - INFO - Logging system is configured
+2024-11-18 12:13:16,261 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:13:16,502 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:13:16,502 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:13:19,504 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:13:19,506 - INFO - 127.0.0.1 - - [18/Nov/2024 12:13:19] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:14:56,527 - INFO - Logging system is configured
+2024-11-18 12:14:56,892 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:14:57,123 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:14:57,123 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:15:00,993 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:15:00,994 - INFO - 127.0.0.1 - - [18/Nov/2024 12:15:00] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:17:14,302 - INFO - Logging system is configured
+2024-11-18 12:17:14,666 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:17:14,900 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:17:14,900 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:17:17,999 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_None.jpg
+2024-11-18 12:17:18,000 - INFO - 127.0.0.1 - - [18/Nov/2024 12:17:18] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:18:12,400 - INFO - Logging system is configured
+2024-11-18 12:18:12,775 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:18:13,000 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:18:13,000 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:18:16,120 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_4.jpg
+2024-11-18 12:18:18,311 - INFO - Voucher YAOH3XTF status updated to redeemed
+2024-11-18 12:18:18,312 - INFO - 127.0.0.1 - - [18/Nov/2024 12:18:18] "POST /sticker?code=YAOH3XTF HTTP/1.1" 200 -
+2024-11-18 12:20:50,527 - INFO - Logging system is configured
+2024-11-18 12:20:51,129 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:20:51,395 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:20:51,395 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:20:55,509 - INFO - 127.0.0.1 - - [18/Nov/2024 12:20:55] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:20:57,395 - INFO - 127.0.0.1 - - [18/Nov/2024 12:20:57] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:20:59,030 - INFO - 127.0.0.1 - - [18/Nov/2024 12:20:59] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:26:14,779 - INFO - Logging system is configured
+2024-11-18 12:26:15,398 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:26:15,668 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:26:15,669 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:26:19,562 - INFO - 127.0.0.1 - - [18/Nov/2024 12:26:19] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:26:25,456 - INFO - 127.0.0.1 - - [18/Nov/2024 12:26:25] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:27:08,977 - INFO - Logging system is configured
+2024-11-18 12:27:09,643 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:27:09,916 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:27:09,916 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:27:13,829 - INFO - 127.0.0.1 - - [18/Nov/2024 12:27:13] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:27:15,642 - INFO - 127.0.0.1 - - [18/Nov/2024 12:27:15] "[31m[1mPOST /sticker?code=YAOH3XTF HTTP/1.1[0m" 400 -
+2024-11-18 12:30:41,852 - INFO - Logging system is configured
+2024-11-18 12:30:42,547 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 12:30:42,810 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 12:30:42,810 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 12:30:46,831 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 12:30:48,020 - INFO - Voucher YAOH3XTF status updated to redeemed
+2024-11-18 12:30:48,021 - INFO - 127.0.0.1 - - [18/Nov/2024 12:30:48] "POST /sticker?code=YAOH3XTF HTTP/1.1" 200 -
+2024-11-18 12:31:52,450 - INFO - 127.0.0.1 - - [18/Nov/2024 12:31:52] "[31m[1mPOST /sticker?code=H8R6WUH HTTP/1.1[0m" 400 -
+2024-11-18 12:31:56,252 - INFO - 127.0.0.1 - - [18/Nov/2024 12:31:56] "[31m[1mPOST /sticker?code=H8R6WUH HTTP/1.1[0m" 400 -
+2024-11-18 12:32:18,663 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 12:32:19,857 - INFO - Voucher H8R6WUHG status updated to redeemed
+2024-11-18 12:32:19,858 - INFO - 127.0.0.1 - - [18/Nov/2024 12:32:19] "POST /sticker?code=H8R6WUHG HTTP/1.1" 200 -
+2024-11-18 12:33:22,979 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 12:33:24,148 - INFO - Voucher Q3A4OGPG status updated to redeemed
+2024-11-18 12:33:24,148 - INFO - 127.0.0.1 - - [18/Nov/2024 12:33:24] "POST /sticker?code=Q3A4OGPG HTTP/1.1" 200 -
+2024-11-18 13:06:44,866 - INFO - Logging system is configured
+2024-11-18 13:06:45,455 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 13:06:45,720 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 13:06:45,720 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 13:07:14,599 - INFO - Logging system is configured
+2024-11-18 13:07:14,950 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 13:07:15,162 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 13:07:15,162 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 13:07:53,192 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 13:07:54,446 - INFO - Voucher IDPB4G1E status updated to redeemed
+2024-11-18 13:07:54,447 - INFO - 127.0.0.1 - - [18/Nov/2024 13:07:54] "POST /sticker?code=IDPB4G1E HTTP/1.1" 200 -
+2024-11-18 13:08:46,278 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 13:08:47,865 - INFO - Voucher 6I9R97WW status updated to redeemed
+2024-11-18 13:08:47,866 - INFO - 127.0.0.1 - - [18/Nov/2024 13:08:47] "POST /sticker?code=6I9R97WW HTTP/1.1" 200 -
+2024-11-18 13:09:16,495 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 13:09:17,668 - INFO - Voucher F9BQ23W6 status updated to redeemed
+2024-11-18 13:09:17,669 - INFO - 127.0.0.1 - - [18/Nov/2024 13:09:17] "POST /sticker?code=F9BQ23W6 HTTP/1.1" 200 -
+2024-11-18 13:10:15,833 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 13:10:17,008 - INFO - Voucher N7W6PG9M status updated to redeemed
+2024-11-18 13:10:17,008 - INFO - 127.0.0.1 - - [18/Nov/2024 13:10:17] "POST /sticker?code=N7W6PG9M HTTP/1.1" 200 -
+2024-11-18 13:14:34,259 - INFO - Logging system is configured
+2024-11-18 13:14:34,935 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 13:14:35,203 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 13:14:35,203 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 13:15:03,266 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 13:15:04,503 - INFO - Voucher GQL4FJU1 status updated to redeemed
+2024-11-18 13:15:04,505 - INFO - 127.0.0.1 - - [18/Nov/2024 13:15:04] "POST /sticker?code=GQL4FJU1 HTTP/1.1" 200 -
+2024-11-18 13:15:06,379 - INFO - 127.0.0.1 - - [18/Nov/2024 13:15:06] "[31m[1mPOST /sticker?code=GQL4FJU1 HTTP/1.1[0m" 400 -
+2024-11-18 13:15:40,783 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_0.jpg
+2024-11-18 13:15:41,958 - INFO - Voucher B5FT18KF status updated to redeemed
+2024-11-18 13:15:41,959 - INFO - 127.0.0.1 - - [18/Nov/2024 13:15:41] "POST /sticker?code=B5FT18KF HTTP/1.1" 200 -
+2024-11-18 13:18:12,180 - INFO - Logging system is configured
+2024-11-18 13:18:12,815 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 13:18:13,081 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 13:18:13,081 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 13:18:40,606 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-18 13:18:42,869 - INFO - Voucher 9J37EESN status updated to redeemed
+2024-11-18 13:18:42,870 - INFO - 127.0.0.1 - - [18/Nov/2024 13:18:42] "POST /sticker?code=9J37EESN HTTP/1.1" 200 -
+2024-11-18 16:26:46,023 - INFO - Logging system is configured
+2024-11-18 16:26:46,806 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 16:26:47,081 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 16:26:47,081 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 16:28:23,401 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_3.jpg
+2024-11-18 16:28:25,514 - INFO - Voucher Y6A2MB64 status updated to redeemed
+2024-11-18 16:28:25,515 - INFO - 127.0.0.1 - - [18/Nov/2024 16:28:25] "POST /sticker?code=Y6A2MB64 HTTP/1.1" 200 -
+2024-11-18 16:29:23,819 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-18 16:29:25,969 - INFO - Voucher ZCOK0B30 status updated to redeemed
+2024-11-18 16:29:25,970 - INFO - 127.0.0.1 - - [18/Nov/2024 16:29:25] "POST /sticker?code=ZCOK0B30 HTTP/1.1" 200 -
+2024-11-18 16:33:36,557 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_4.jpg
+2024-11-18 16:33:38,701 - INFO - Voucher 3O7VMKB7 status updated to redeemed
+2024-11-18 16:33:38,702 - INFO - 127.0.0.1 - - [18/Nov/2024 16:33:38] "POST /sticker?code=3O7VMKB7 HTTP/1.1" 200 -
+2024-11-18 16:34:42,665 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-18 16:34:44,807 - INFO - Voucher HEHILZOL status updated to redeemed
+2024-11-18 16:34:44,808 - INFO - 127.0.0.1 - - [18/Nov/2024 16:34:44] "POST /sticker?code=HEHILZOL HTTP/1.1" 200 -
+2024-11-18 16:35:12,128 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-18 16:35:14,365 - INFO - Voucher IA4UH6BE status updated to redeemed
+2024-11-18 16:35:14,366 - INFO - 127.0.0.1 - - [18/Nov/2024 16:35:14] "POST /sticker?code=IA4UH6BE HTTP/1.1" 200 -
+2024-11-18 16:36:31,404 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_4.jpg
+2024-11-18 16:36:33,531 - INFO - Voucher WQOVZ151 status updated to redeemed
+2024-11-18 16:36:33,532 - INFO - 127.0.0.1 - - [18/Nov/2024 16:36:33] "POST /sticker?code=WQOVZ151 HTTP/1.1" 200 -
+2024-11-18 16:37:17,848 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-18 16:37:20,046 - INFO - Voucher OMPDUXT1 status updated to redeemed
+2024-11-18 16:37:20,046 - INFO - 127.0.0.1 - - [18/Nov/2024 16:37:20] "POST /sticker?code=OMPDUXT1 HTTP/1.1" 200 -
+2024-11-18 16:38:06,170 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-18 16:38:08,309 - INFO - Voucher 6V64OU60 status updated to redeemed
+2024-11-18 16:38:08,310 - INFO - 127.0.0.1 - - [18/Nov/2024 16:38:08] "POST /sticker?code=6V64OU60 HTTP/1.1" 200 -
+2024-11-18 16:42:30,288 - INFO - Logging system is configured
+2024-11-18 16:42:30,879 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 16:42:31,144 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 16:42:31,144 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 16:42:52,361 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_2.jpg
+2024-11-18 16:42:54,680 - INFO - Voucher S7FNC27N status updated to redeemed
+2024-11-18 16:42:54,681 - INFO - 127.0.0.1 - - [18/Nov/2024 16:42:54] "POST /sticker?code=S7FNC27N HTTP/1.1" 200 -
+2024-11-18 16:44:19,346 - INFO - Logging system is configured
+2024-11-18 16:44:19,946 - INFO - NumExpr defaulting to 8 threads.
+2024-11-18 16:44:20,202 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 16:44:20,202 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 16:44:45,036 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/controller/../../stickers/sticker_1.jpg
+2024-11-18 16:44:48,232 - INFO - Voucher E1A8M2YW status updated to redeemed
+2024-11-18 16:44:48,235 - INFO - 127.0.0.1 - - [18/Nov/2024 16:44:48] "POST /sticker?code=E1A8M2YW HTTP/1.1" 200 -

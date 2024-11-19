@@ -1985,3 +1985,183 @@ AttributeError: 'ImageDraw' object has no attribute 'textsize'
 2024-11-18 20:16:17,094 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2024-11-18 20:16:17,094 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:02:23,857 - INFO - Logging system is configured
+2024-11-19 17:02:25,249 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:08:18,532 - INFO - Logging system is configured
+2024-11-19 17:08:19,185 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:09:52,418 - INFO - Logging system is configured
+2024-11-19 17:09:53,041 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:12:11,119 - INFO - Logging system is configured
+2024-11-19 17:12:11,720 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:17:09,707 - INFO - Logging system is configured
+2024-11-19 17:17:10,322 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:17:10,592 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:17:10,592 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:23:27,063 - INFO - 127.0.0.1 - - [19/Nov/2024 17:23:27] "[31m[1mPOST /personality HTTP/1.1[0m" 405 -
+2024-11-19 17:23:29,965 - INFO - 127.0.0.1 - - [19/Nov/2024 17:23:29] "[31m[1mPOST /personality HTTP/1.1[0m" 405 -
+2024-11-19 17:23:30,885 - INFO - 127.0.0.1 - - [19/Nov/2024 17:23:30] "[31m[1mPOST /personality HTTP/1.1[0m" 405 -
+2024-11-19 17:24:26,454 - INFO - Logging system is configured
+2024-11-19 17:24:27,204 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:24:27,483 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:24:27,483 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:24:34,636 - INFO - 127.0.0.1 - - [19/Nov/2024 17:24:34] "[31m[1mPOST /personality HTTP/1.1[0m" 405 -
+2024-11-19 17:24:35,928 - INFO - 127.0.0.1 - - [19/Nov/2024 17:24:35] "[31m[1mPOST /personality HTTP/1.1[0m" 405 -
+2024-11-19 17:24:59,777 - INFO - Logging system is configured
+2024-11-19 17:25:00,100 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:25:00,326 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:25:00,327 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:25:27,148 - INFO - Logging system is configured
+2024-11-19 17:25:27,482 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:25:27,709 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:25:27,709 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:25:31,898 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_5.jpg
+2024-11-19 17:25:31,899 - ERROR - Error in generate_personality: 'brownies cheese'
+2024-11-19 17:25:31,899 - ERROR - Exception on /personality [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'get_personality' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-19 17:25:31,902 - INFO - 127.0.0.1 - - [19/Nov/2024 17:25:31] "[35m[1mPOST /personality HTTP/1.1[0m" 500 -
+2024-11-19 17:25:35,788 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_5.jpg
+2024-11-19 17:25:35,789 - ERROR - Error in generate_personality: 'brownies cheese'
+2024-11-19 17:25:35,789 - ERROR - Exception on /personality [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'get_personality' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-19 17:25:35,791 - INFO - 127.0.0.1 - - [19/Nov/2024 17:25:35] "[35m[1mPOST /personality HTTP/1.1[0m" 500 -
+2024-11-19 17:27:38,998 - INFO - Logging system is configured
+2024-11-19 17:27:39,323 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:27:39,554 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:27:39,554 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:27:45,095 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_5.jpg
+2024-11-19 17:27:45,096 - ERROR - Error in generate_personality: 'brownies cheese'
+2024-11-19 17:27:45,096 - ERROR - Exception on /personality [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'get_personality' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-19 17:27:45,099 - INFO - 127.0.0.1 - - [19/Nov/2024 17:27:45] "[35m[1mPOST /personality HTTP/1.1[0m" 500 -
+2024-11-19 17:28:25,757 - INFO - Logging system is configured
+2024-11-19 17:28:26,105 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:28:26,332 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:28:26,332 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:28:30,163 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_5.jpg
+2024-11-19 17:28:30,164 - ERROR - Error in generate_personality: 'brownies cheese'
+2024-11-19 17:28:30,164 - ERROR - Exception on /personality [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'get_personality' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-19 17:28:30,167 - INFO - 127.0.0.1 - - [19/Nov/2024 17:28:30] "[35m[1mPOST /personality HTTP/1.1[0m" 500 -
+2024-11-19 17:29:12,522 - INFO - Logging system is configured
+2024-11-19 17:29:12,874 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:29:13,080 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:29:13,080 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:29:24,339 - ERROR - Error in generate_personality: 'brownies cheese'
+2024-11-19 17:29:24,340 - ERROR - Exception on /personality [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'get_personality' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-19 17:29:24,343 - INFO - 127.0.0.1 - - [19/Nov/2024 17:29:24] "[35m[1mPOST /personality HTTP/1.1[0m" 500 -
+2024-11-19 17:32:03,502 - INFO - Logging system is configured
+2024-11-19 17:32:03,856 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:32:04,086 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:32:04,086 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:32:08,469 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_5.jpg
+2024-11-19 17:32:08,497 - INFO - 127.0.0.1 - - [19/Nov/2024 17:32:08] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:36:09,506 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_2.jpg
+2024-11-19 17:36:09,521 - INFO - 127.0.0.1 - - [19/Nov/2024 17:36:09] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:40:32,906 - INFO - Logging system is configured
+2024-11-19 17:40:33,554 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:40:33,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:40:33,823 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:40:42,979 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_2.jpg
+2024-11-19 17:40:42,991 - INFO - 127.0.0.1 - - [19/Nov/2024 17:40:42] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:42:57,649 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_0.jpg
+2024-11-19 17:42:57,679 - INFO - 127.0.0.1 - - [19/Nov/2024 17:42:57] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:45:36,515 - INFO - Logging system is configured
+2024-11-19 17:45:37,146 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:45:37,413 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:45:37,413 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:45:43,519 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_0.jpg
+2024-11-19 17:45:43,547 - INFO - 127.0.0.1 - - [19/Nov/2024 17:45:43] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:49:48,872 - INFO - Logging system is configured
+2024-11-19 17:49:49,461 - INFO - NumExpr defaulting to 8 threads.
+2024-11-19 17:49:49,727 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 17:49:49,727 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:49:55,110 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_1.jpg
+2024-11-19 17:49:55,123 - INFO - 127.0.0.1 - - [19/Nov/2024 17:49:55] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:51:39,479 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_3.jpg
+2024-11-19 17:51:39,521 - INFO - 127.0.0.1 - - [19/Nov/2024 17:51:39] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:54:09,239 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_3.jpg
+2024-11-19 17:54:09,284 - INFO - 127.0.0.1 - - [19/Nov/2024 17:54:09] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:54:10,341 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_3.jpg
+2024-11-19 17:54:10,372 - INFO - 127.0.0.1 - - [19/Nov/2024 17:54:10] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:54:12,415 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_3.jpg
+2024-11-19 17:54:12,455 - INFO - 127.0.0.1 - - [19/Nov/2024 17:54:12] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:54:13,154 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_3.jpg
+2024-11-19 17:54:13,192 - INFO - 127.0.0.1 - - [19/Nov/2024 17:54:13] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:54:13,947 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_3.jpg
+2024-11-19 17:54:13,981 - INFO - 127.0.0.1 - - [19/Nov/2024 17:54:13] "POST /personality HTTP/1.1" 200 -
+2024-11-19 17:54:41,816 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_3.jpg
+2024-11-19 17:54:41,853 - INFO - 127.0.0.1 - - [19/Nov/2024 17:54:41] "POST /personality HTTP/1.1" 200 -
+2024-11-19 18:13:59,983 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_3.jpg
+2024-11-19 18:14:00,034 - INFO - 127.0.0.1 - - [19/Nov/2024 18:14:00] "POST /personality HTTP/1.1" 200 -

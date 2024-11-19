@@ -1,5 +1,6 @@
 from app import app
 from app.controller import StikerController
+from app.controller import PersonalityController
 from flask_cors import CORS
 CORS(app)
 
@@ -20,4 +21,6 @@ def upload_code():
 def reedem_diskon():
         return StikerController.reedem_diskon()
 
-   
+@app.route('/personality', methods = ['POST'])
+def get_personality():
+        return PersonalityController.get_personality()

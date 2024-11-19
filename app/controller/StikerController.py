@@ -9,7 +9,7 @@ from io import BytesIO
 from app.model.voucher import Voucher
 from app.model.record_redemption import Record_Redemption
 from PIL import Image, ImageDraw, ImageFont
-import heapq
+from app.helpers.file_helper import get_sticker_file
 
 
 # Jumlah stiker yang dimiliki (misalkan kamu memiliki 10 stiker)
@@ -17,8 +17,6 @@ NUM_STICKERS = 6
 
 STICKER_PROBABILITY = [3,3,3,2,2,1]
 
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-STICKER_DIR = os.path.join(BASE_DIR, '..', '..', 'stickers')
 
 
 def upload_image():
@@ -191,16 +189,6 @@ def validate_indatabase(voucher):
         print("Error:", e)
         return {"valid": False, "reason": "error"}
             
-def get_sticker_file(index):
-    sticker_path = os.path.join(STICKER_DIR, f'sticker_{index}.jpg')
-
-    logging.info(f"Checking if sticker file exists at: {sticker_path}")
-    if os.path.exists(sticker_path):
-        return sticker_path
-    else: 
-        return None
-    
-
 def reedem_diskon():
 
     data = request.get_json()
@@ -317,8 +305,6 @@ def get_sticker_byprobability(index):
             else:
                 newidx = newidx + 1
         
-        print(sorted_records)
-
         count = 0
         idxpriority = 0
         for i in range(len(STICKER_PROBABILITY)):
@@ -335,22 +321,17 @@ def get_sticker_byprobability(index):
                 idxpriority = idxpriority + 1
                 count = 0
         
-
-
-       
         # kita dapat position tapi kita ingin ambil 
 
-       
-    
         while newidx > 0 :
             priority = STICKER_PROBABILITY[sorted_records[newidx][1].position]
             current_priorityidx = hash_map[priority]
 
             if current_priorityidx == 0:
-                newidx = sorted_records[newidx][i].position
+                newidx = sorted_records[newidx][1].position
                 break
             elif (count_priority[current_priorityidx][1]+1) * count_priority[current_priorityidx-1][0] <= count_priority[current_priorityidx-1][1]:
-                newidx = sorted_records[newidx][i].position
+                newidx = sorted_records[newidx][1].position
                 print("quota fulfilled")
                 break
             else:

@@ -109,7 +109,7 @@ def get_personality():
 
         index = sticker_index[max_product]
 
-        
+
         sticker_path = get_sticker_file(index)
         alias = aliases[max_product]
         description = descriptions[max_product]
@@ -133,9 +133,26 @@ def get_personality():
         logging.error(f"Error in generate_personality: {e}")
         print("Error in generate_personality: {e}")
 
-def encode_image_to_base64(file_path):
+
+def encode_image_to_base64(file_path, compress=False):
     try:
         with open(file_path, "rb") as img_file:
-            return base64.b64encode(img_file.read()).decode('utf-8')
+            # Encode file ke Base64
+            base64_data = base64.b64encode(img_file.read()).decode('utf-8')
+
+            if compress:
+                # Kompres data Base64 menggunakan zlib
+                compressed_data = zlib.compress(base64_data.encode('utf-8'))
+                return compressed_data  # Mengembalikan data terkompresi
+            else:
+                return base64_data  # Mengembalikan data Base64 biasa
     except FileNotFoundError:
+        return None
+
+def decompress_base64(compressed_data):
+    try:
+        # Dekompres data menggunakan zlib
+        decompressed_data = zlib.decompress(compressed_data).decode('utf-8')
+        return decompressed_data  # Mengembalikan data Base64 asli
+    except zlib.error:
         return None

@@ -1,3 +1,5 @@
+import logging
+from urllib import request
 from app import app
 from app.controller import StikerController
 from app.controller import PersonalityController
@@ -15,6 +17,7 @@ def upload_image():
 
 @app.route('/sticker', methods=['POST'])
 def upload_code():
+    logging.info(f"Received parameters: {request.args}")
     return StikerController.get_sticker_image()
 
 @app.route('/reedem_diskon', methods = ['POST'])

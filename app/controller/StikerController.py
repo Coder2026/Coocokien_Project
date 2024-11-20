@@ -15,7 +15,7 @@ from app.helpers.file_helper import get_sticker_file
 # Jumlah stiker yang dimiliki (misalkan kamu memiliki 10 stiker)
 NUM_STICKERS = 6
 
-STICKER_PROBABILITY = [3,3,3,2,2,1]
+STICKER_PROBABILITY = [1,1,1,1,1,1]
 
 
 
@@ -280,7 +280,7 @@ def modify_sticker(sticker_file, code):
         temp_file.seek(0)
 
         # Send the modified image
-        return send_file(temp_file, mimetype='image/png', as_attachment=True, download_name=f"{code}.png")
+        return send_file(temp_file, mimetype='image/png', download_name=f"{code}.png")
 
     except Exception as e:
         print(f"Error: {e}")

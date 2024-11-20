@@ -37,10 +37,10 @@ sticker_index = {
 }
 
 aliases = {
-    "Cookies Original": "Cookien",
-    "Cookies S'mores": "Nibbles",
+    "Cookies Original": "Snick",
     "Cookies Lotus": "Crunch",
-    "Brownies Original": "Brookien",
+    "Cookies S'mores": "Nibbles",
+    "Brownies Original": "Mochi",
     "Brownies Red Velvet": "Gooey",
     "Brownies Cheese": "Swirl",
 }
@@ -86,8 +86,8 @@ def get_personality():
                     product_count[product] += 1
 
         # Menampilkan semua skor di konsol
-        for product, score in product_count.items():
-            print(f"Product: {product}, Score: {score}")
+        # for product, score in product_count.items():
+        #     print(f"Product: {product}, Score: {score}")
         
        
         # Mencari produk dengan nilai maksimum
@@ -95,22 +95,21 @@ def get_personality():
 
         print(f"max product adalah: {max_product}")
 
-                # Menentukan huruf kepribadian
-        letters = [] 
-        for i, letter in enumerate(["E", "N", "T", "P"]):
-            if personality[i] >= 3:
-                letters.append(letter)
-            else:
-                # Pasangannya dari kategori kedua
-                letters.append(["I", "S", "F", "J"][i])
+        #         # Menentukan huruf kepribadian
+        # letters = [] 
+        # for i, letter in enumerate(["E", "N", "T", "P"]):
+        #     if personality[i] >= 3:
+        #         letters.append(letter)
+        #     else:
+        #         # Pasangannya dari kategori kedua
+        #         letters.append(["I", "S", "F", "J"][i])
 
-        personality_type = "".join(letters)
-        print(f"Personality type: {personality_type}")
+        # personality_type = "".join(letters)
+        # print(f"Personality type: {personality_type}")
 
         index = sticker_index[max_product]
 
         
-
         sticker_path = get_sticker_file(index)
         alias = aliases[max_product]
         description = descriptions[max_product]

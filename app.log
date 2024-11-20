@@ -2165,3 +2165,88 @@ TypeError: The view function for 'get_personality' did not return a valid respon
 2024-11-19 17:54:41,853 - INFO - 127.0.0.1 - - [19/Nov/2024 17:54:41] "POST /personality HTTP/1.1" 200 -
 2024-11-19 18:13:59,983 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_3.jpg
 2024-11-19 18:14:00,034 - INFO - 127.0.0.1 - - [19/Nov/2024 18:14:00] "POST /personality HTTP/1.1" 200 -
+2024-11-20 17:56:14,906 - INFO - Logging system is configured
+2024-11-20 17:56:22,550 - INFO - NumExpr defaulting to 8 threads.
+2024-11-20 17:56:23,576 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 17:56:23,576 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-20 18:00:04,231 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-20 18:00:04,234 - INFO - 127.0.0.1 - - [20/Nov/2024 18:00:04] "[35m[1mPOST /sticker?code=H3YJQQV4 HTTP/1.1[0m" 500 -
+2024-11-20 18:00:06,174 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-20 18:00:06,175 - INFO - 127.0.0.1 - - [20/Nov/2024 18:00:06] "[35m[1mPOST /sticker?code=H3YJQQV4 HTTP/1.1[0m" 500 -
+2024-11-20 18:00:11,899 - ERROR - Exception on /sticker [POST]
+Traceback (most recent call last):
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 889, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adnanmursyid/anaconda3/lib/python3.11/site-packages/flask/app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'upload_code' did not return a valid response. The function either returned None or ended without a return statement.
+2024-11-20 18:00:11,900 - INFO - 127.0.0.1 - - [20/Nov/2024 18:00:11] "[35m[1mPOST /sticker?code=H3YJQQV4 HTTP/1.1[0m" 500 -
+2024-11-20 18:01:31,936 - INFO - 127.0.0.1 - - [20/Nov/2024 18:01:31] "[31m[1mPOST /sticker?code=H3YJQQV4 HTTP/1.1[0m" 400 -
+2024-11-20 18:01:36,389 - INFO - 127.0.0.1 - - [20/Nov/2024 18:01:36] "[31m[1mPOST /sticker?code=H3YJQQV4 HTTP/1.1[0m" 400 -
+2024-11-20 18:02:42,568 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_1.png
+2024-11-20 18:02:44,175 - INFO - Voucher 0BS7N8KP status updated to redeemed
+2024-11-20 18:02:44,177 - INFO - 127.0.0.1 - - [20/Nov/2024 18:02:44] "POST /sticker?code=0BS7N8KP HTTP/1.1" 200 -
+2024-11-20 18:03:28,827 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_0.png
+2024-11-20 18:03:30,242 - INFO - Voucher K5QJ6GF5 status updated to redeemed
+2024-11-20 18:03:30,243 - INFO - 127.0.0.1 - - [20/Nov/2024 18:03:30] "POST /sticker?code=K5QJ6GF5 HTTP/1.1" 200 -
+2024-11-20 18:04:05,874 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_4.png
+2024-11-20 18:04:07,417 - INFO - Voucher 065XJ8FS status updated to redeemed
+2024-11-20 18:04:07,418 - INFO - 127.0.0.1 - - [20/Nov/2024 18:04:07] "POST /sticker?code=065XJ8FS HTTP/1.1" 200 -
+2024-11-20 18:04:27,017 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_0.png
+2024-11-20 18:04:28,396 - INFO - Voucher Z1N8MVQ5 status updated to redeemed
+2024-11-20 18:04:28,397 - INFO - 127.0.0.1 - - [20/Nov/2024 18:04:28] "POST /sticker?code=Z1N8MVQ5 HTTP/1.1" 200 -
+2024-11-20 18:05:18,040 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_2.png
+2024-11-20 18:05:19,708 - INFO - Voucher BTNF2HDB status updated to redeemed
+2024-11-20 18:05:19,709 - INFO - 127.0.0.1 - - [20/Nov/2024 18:05:19] "POST /sticker?code=BTNF2HDB HTTP/1.1" 200 -
+2024-11-20 18:07:37,690 - INFO - Logging system is configured
+2024-11-20 18:07:38,290 - INFO - NumExpr defaulting to 8 threads.
+2024-11-20 18:07:38,552 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-20 18:07:38,553 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-20 18:08:14,722 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_1.png
+2024-11-20 18:08:16,243 - INFO - Voucher JHGFWCCC status updated to redeemed
+2024-11-20 18:08:16,245 - INFO - 127.0.0.1 - - [20/Nov/2024 18:08:16] "POST /sticker?code=JHGFWCCC HTTP/1.1" 200 -
+2024-11-20 18:09:00,979 - INFO - 127.0.0.1 - - [20/Nov/2024 18:09:00] "[31m[1mPOST /sticker?code=065XJ8FS HTTP/1.1[0m" 400 -
+2024-11-20 18:09:02,793 - INFO - 127.0.0.1 - - [20/Nov/2024 18:09:02] "[31m[1mPOST /sticker?code=065XJ8FS HTTP/1.1[0m" 400 -
+2024-11-20 18:09:26,165 - INFO - 127.0.0.1 - - [20/Nov/2024 18:09:26] "[31m[1mPOST /sticker?code=JHGFWCCC HTTP/1.1[0m" 400 -
+2024-11-20 18:09:27,494 - INFO - 127.0.0.1 - - [20/Nov/2024 18:09:27] "[31m[1mPOST /sticker?code=JHGFWCCC HTTP/1.1[0m" 400 -
+2024-11-20 18:09:54,660 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_2.png
+2024-11-20 18:09:56,335 - INFO - Voucher GG3FY6PD status updated to redeemed
+2024-11-20 18:09:56,336 - INFO - 127.0.0.1 - - [20/Nov/2024 18:09:56] "POST /sticker?code=GG3FY6PD HTTP/1.1" 200 -
+2024-11-20 18:10:44,621 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_0.png
+2024-11-20 18:10:46,089 - INFO - Voucher CCIONZ4F status updated to redeemed
+2024-11-20 18:10:46,089 - INFO - 127.0.0.1 - - [20/Nov/2024 18:10:46] "POST /sticker?code=CCIONZ4F HTTP/1.1" 200 -

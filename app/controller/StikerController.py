@@ -269,7 +269,7 @@ def modify_sticker(sticker_file, code):
 
         # Calculate text position: center horizontally, 5% margin from bottom
         x_position = (image_width - text_width) / 2
-        y_position = image_height - text_height - int(image_height * 0.05)
+        y_position = int(image_height * 0.03)
 
         # Draw the text
         draw.text((x_position, y_position), code, fill="black", font=font)

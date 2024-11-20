@@ -1,5 +1,5 @@
 import logging
-from urllib import request
+from flask import request 
 from app import app
 from app.controller import StikerController
 from app.controller import PersonalityController

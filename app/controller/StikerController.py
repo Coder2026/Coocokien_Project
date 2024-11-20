@@ -280,7 +280,7 @@ def modify_sticker(sticker_file, code):
         temp_file.seek(0)
 
         # Send the modified image
-        return send_file(temp_file, mimetype='image/png', as_attachment=True, download_name=f"{code}.png")
+        return send_file(temp_file, mimetype='image/png',download_name=f"{code}.png")
 
     except Exception as e:
         print(f"Error: {e}")

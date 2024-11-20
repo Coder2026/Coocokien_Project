@@ -1,6 +1,7 @@
 from flask import request, jsonify
 from collections import defaultdict
 import logging
+import zlib
 from app import response
 from app.helpers.file_helper import get_sticker_file
 import base64
@@ -8,14 +9,14 @@ import base64
 
 
 # Data awal
-I = ["Cookies Original","Cookies Lotus","Brownies Original"]
-S = ["Cookies Original","Brownies Original","Brownies Red Velvet"]
-F = ["Cookies S'mores","Cookies Lotus","Brownies Red Velvet"]
-J = ["Cookies Original","Cookies Lotus"]
-E = ["Cookies S'mores","Brownies Red Velvet","Brownies Cheese"]
-N = ["Cookies S'mores","Cookies Lotus","Brownies Cheese"]
-T = ["Cookies Original","Brownies Original","Brownies Cheese"]
-P = ["Cookies S'mores","Brownies Original","Brownies Red Velvet","Brownies Cheese"]
+I = ["Cookies Original","Cookies Lotus","Brownies Red Velvet","Brownies Original","Cookies S'mores","Brownies Cheese","Cookies Lotus","Brownies Original"]
+S = ["Cookies Original","Cookies Lotus","Cookies S'mores","Brownies Cheese","Cookies S'mores","Brownies Cheese","Cookies Original","Cookies Lotus"]
+F = ["Cookies S'mores","Cookies Lotus","Brownies Red Velvet","Brownies Cheese","Cookies Lotus","Brownies Cheese","Brownies Red Velvet","Cookies Lotus","Brownies Red Velvet"]
+J = ["Cookies Original","Cookies Lotus","Brownies Original","Cookies Original","Cookies Lotus","Brownies Red Velvet","Brownies Cheese"]
+E = ["Cookies S'mores","Brownies Red Velvet","Cookies S'mores","Brownies Cheese","Brownies Red Velvet","Cookies S'mores","Cookies Original","Cookies Lotus","Brownies Red Velvet","Brownies Cheese"]
+N = ["Cookies S'mores","Brownies Red Velvet","Brownies Original","Cookies Lotus","Brownies Original","Brownies Red Velvet","Cookies S'mores","Brownies Red Velvet","Brownies Cheese"]
+T = ["Cookies Original","Brownies Original","Cookies S'mores","Brownies Original","Cookies S'mores","Cookies S'mores","Cookies Original","Brownies Cheese"]
+P = ["Cookies S'mores","Cookies S'mores","Brownies Cheese","Cookies Lotus","Brownies Original","Cookies S'mores","Brownies Cheese","Brownies Red Velvet","Cookies S'mores"]
 
 
 
@@ -46,12 +47,22 @@ aliases = {
 }
 
 descriptions = {
-    "Cookies Original": "lorem ipsum",
-    "Cookies S'mores": "loremipsum",
-    "Cookies Lotus": "lorem ipsum",
-    "Brownies Original": "lorem ipsum",
-    "Brownies Red Velvet": "lorem ipsum",
-    "Brownies Cheese": "lorem ipsum",
+    "ISTJ": "Tertata dan klasik, cocok untuk Anda yang mengutamakan kesederhanaan dan konsistensi. Setiap gigitan penuh dengan kualitas yang tak tergoyahkan.",
+    "ISFJ": "Cocok untuk Anda yang perhatian dan penuh dedikasi. Cookies Lotus menghadirkan kenyamanan seperti pelukan hangat yang selalu Anda berikan.",
+    "INFJ": "Inspiratif dan memiliki visi besar, Anda adalah seseorang yang membawa perubahan positif. Brownies Red Velvet mencerminkan kedalaman dan keanggunan Anda.",
+    "INTJ": "Analitis dan penuh strategi, Brownies Original mencerminkan pendekatan terencana Anda terhadap hidup. Simpel, tapi selalu berkualitas.",
+    "ISTP": "Petualang yang selalu mencoba hal baru, Cookies S'mores adalah teman ideal Anda. Kreatif, penuh rasa, dan memberikan kejutan di setiap gigitan.",
+    "ISFP": "Artistik dan selalu mengikuti kata hati, Brownies Cheese mencerminkan keindahan dan kesempurnaan di setiap detailnya.",
+    "INFP": "Penuh empati dan selalu peduli, Cookies Lotus cocok untuk Anda yang menghargai hubungan mendalam dan harmoni.",
+    "INTP": "Anda mencintai logika dan selalu penasaran. Brownies Original adalah pilihan sempurna untuk Anda yang suka memikirkan setiap detail rasa.",
+    "ESTP": "Berani dan penuh energi, Cookies S'mores mencerminkan gaya hidup aktif Anda. Manis, penuh rasa, dan selalu menyenangkan.",
+    "ESFP": "Pusat perhatian dan selalu membawa kebahagiaan, Brownies Cheese adalah cerminan dari kreativitas dan kebahagiaan yang Anda sebarkan.",
+    "ENFP": "Anda selalu membawa ide-ide baru. Cookies S'mores cocok untuk Anda yang selalu penuh kejutan dan inspirasi.",
+    "ENTP": "Penuh ide kreatif dan suka berdebat, Brownies Red Velvet mencerminkan keberanian Anda untuk selalu mencoba hal baru.",
+    "ESTJ": "Sangat terorganisir dan tegas, Cookies Original mencerminkan kemampuan Anda untuk mengambil tanggung jawab dalam setiap situasi.",
+    "ESFJ": "Selalu mendukung orang lain, Cookies Lotus cocok untuk Anda yang suka membawa kebahagiaan bagi orang di sekitar.",
+    "ENFJ": "Anda adalah pemimpin yang penuh empati, dan Brownies Red Velvet mencerminkan visi Anda untuk membawa kebaikan bagi semua orang.",
+    "ENTJ": "Kuat dan tegas, Brownies Original adalah cerminan dari kepemimpinan Anda yang selalu berorientasi pada hasil."
 }
 
 
@@ -95,24 +106,24 @@ def get_personality():
 
         print(f"max product adalah: {max_product}")
 
-        #         # Menentukan huruf kepribadian
-        # letters = [] 
-        # for i, letter in enumerate(["E", "N", "T", "P"]):
-        #     if personality[i] >= 3:
-        #         letters.append(letter)
-        #     else:
-        #         # Pasangannya dari kategori kedua
-        #         letters.append(["I", "S", "F", "J"][i])
+                # Menentukan huruf kepribadian
+        letters = [] 
+        for i, letter in enumerate(["E", "N", "T", "P"]):
+            if personality[i] >= 3:
+                letters.append(letter)
+            else:
+                # Pasangannya dari kategori kedua
+                letters.append(["I", "S", "F", "J"][i])
 
-        # personality_type = "".join(letters)
-        # print(f"Personality type: {personality_type}")
+        personality_type = "".join(letters)
+        print(f"Personality type: {personality_type}")
 
         index = sticker_index[max_product]
 
 
         sticker_path = get_sticker_file(index)
         alias = aliases[max_product]
-        description = descriptions[max_product]
+        description = descriptions[letters]
 
         sticker_base64 = encode_image_to_base64(sticker_path)
         if not sticker_base64:

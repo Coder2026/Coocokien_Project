@@ -2250,3 +2250,8 @@ TypeError: The view function for 'upload_code' did not return a valid response. 
 2024-11-20 18:10:44,621 - INFO - Checking if sticker file exists at: /Users/adnanmursyid/Documents/Coocokien_Project/app/helpers/../../stickers/sticker_0.png
 2024-11-20 18:10:46,089 - INFO - Voucher CCIONZ4F status updated to redeemed
 2024-11-20 18:10:46,089 - INFO - 127.0.0.1 - - [20/Nov/2024 18:10:46] "POST /sticker?code=CCIONZ4F HTTP/1.1" 200 -
+2024-11-21 03:43:26,661 - INFO - Logging system is configured
+2024-11-21 03:43:34,284 - INFO - NumExpr defaulting to 8 threads.
+2024-11-21 03:43:35,290 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-21 03:43:35,290 - INFO - [33mPress CTRL+C to quit[0m

@@ -9,22 +9,9 @@ from app.helpers.file_helper import get_sticker_file
 import base64
 
 
-
-# Data awal
-I = ["Cookies Original","Cookies Lotus","Brownies Red Velvet","Brownies Original","Cookies S'mores","Brownies Cheese","Cookies Lotus","Brownies Original"]
-S = ["Cookies Original","Cookies Lotus","Cookies S'mores","Brownies Cheese","Cookies S'mores","Brownies Cheese","Cookies Original","Cookies Lotus"]
-F = ["Cookies S'mores","Cookies Lotus","Brownies Red Velvet","Brownies Cheese","Cookies Lotus","Brownies Cheese","Brownies Red Velvet","Cookies Lotus","Brownies Red Velvet"]
-J = ["Cookies Original","Cookies Lotus","Brownies Original","Cookies Original","Cookies Lotus","Brownies Red Velvet","Brownies Cheese"]
-E = ["Cookies S'mores","Brownies Red Velvet","Cookies S'mores","Brownies Cheese","Brownies Red Velvet","Cookies S'mores","Cookies Original","Cookies Lotus","Brownies Red Velvet","Brownies Cheese"]
-N = ["Cookies S'mores","Brownies Red Velvet","Brownies Original","Cookies Lotus","Brownies Original","Brownies Red Velvet","Cookies S'mores","Brownies Red Velvet","Brownies Cheese"]
-T = ["Cookies Original","Brownies Original","Cookies S'mores","Brownies Original","Cookies S'mores","Cookies S'mores","Cookies Original","Brownies Cheese"]
-P = ["Cookies S'mores","Cookies S'mores","Brownies Cheese","Cookies Lotus","Brownies Original","Cookies S'mores","Brownies Cheese","Brownies Red Velvet","Cookies S'mores"]
-
-
-
 # Define smaller_than_tree and greater_than_tree
-smaller_than_tree = [I, S, F, J]
-greater_than_tree = [E, N, T, P]
+smaller_than_tree = ["I", "S", "F", "J"]
+greater_than_tree = ["E", "N", "T", "P"]
 
 
 # Inisialisasi mbti
@@ -46,6 +33,25 @@ aliases = {
     "Brownies Original": "Mochi",
     "Brownies Red Velvet": "Gooey",
     "Brownies Cheese": "Swirl",
+}
+
+product_maping = {
+    "ISTJ": "Cookies Original",
+    "ISFJ": "Cookies Lotus",
+    "INFJ": "Brownies Red Velvet",
+    "INTJ": "Brownies Original",
+    "ISTP": "Cookies S'mores",
+    "ISFP": "Brownies Cheese",
+    "INFP": "Cookies Lotus",
+    "INTP": "Brownies Original",
+    "ESTP": "Cookies S'mores",
+    "ESFP": "Brownies Cheese",
+    "ENFP": "Cookies S'mores",
+    "ENTP": "Brownies Red Velvet",
+    "ESTJ": "Cookies Original",
+    "ESFJ": "Cookies Lotus",
+    "ENFJ": "Brownies Red Velvet",
+    "ENTJ": "Brownies Original",
 }
 
 descriptions = {
@@ -78,54 +84,26 @@ def get_personality():
         data = request.get_json()
         personality = data.get('score')  # Skor input dari user, berupa list
 
-        
 
         # Validasi data input
         if not isinstance(personality, list) or len(personality) != len(mbti[0]):
             return response.badRequest([],"error: Invalid score input")
-
-        # Inisialisasi penghitung produk
-        product_count = defaultdict(int)
-
+        
+        hasil_mbti = ""
         # Iterasi berdasarkan skor personality
         for i in range(len(personality)):
             if personality[i] >= 3:
-                # Ambil data dari mbti[0] (smaller_than_tree)
-                for product in mbti[1][i]:
-                    product_count[product] += 1
+                hasil_mbti+=mbti[1][i]
             elif personality[i] >= 1:
-                # Ambil data dari mbti[1] (greater_than_tree)
-                for product in mbti[0][i]:
-                    product_count[product] += 1
+                hasil_mbti+=mbti[0][i]
 
-        # Menampilkan semua skor di konsol
-        # for product, score in product_count.items():
-        #     print(f"Product: {product}, Score: {score}")
-        
        
-        # Mencari produk dengan nilai maksimum
-        max_product = max(product_count, key=product_count.get)
 
-        print(f"max product adalah: {max_product}")
-
-                # Menentukan huruf kepribadian
-        letters = [] 
-        for i, letter in enumerate(["E", "N", "T", "P"]):
-            if personality[i] >= 3:
-                letters.append(letter)
-            else:
-                # Pasangannya dari kategori kedua
-                letters.append(["I", "S", "F", "J"][i])
-
-        personality_type = "".join(letters)
-        print(f"Personality type: {personality_type}")
-
-        index = sticker_index[max_product]
-
-
+        product = product_maping[hasil_mbti]
+        index = sticker_index[product]
         sticker_path = get_sticker_file(index)
-        alias = aliases[max_product]
-        description = descriptions["".join(letters)]
+        alias = aliases[product]
+        description = descriptions[hasil_mbti]
 
        
         sticker_base64 = encode_image_to_base64_with_compression(sticker_path, quality=30)
@@ -150,7 +128,7 @@ def get_personality():
         print("Error in generate_personality: {e}")
 
 
-def encode_image_to_base64_with_compression(file_path, quality=30, compress_base64=False):
+def encode_image_to_base64_with_compression(file_path, quality=25, compress_base64=False):
     """
     Kompres gambar dengan Pillow dan encode ke Base64.
     

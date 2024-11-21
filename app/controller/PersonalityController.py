@@ -123,7 +123,7 @@ def get_personality():
 
         sticker_path = get_sticker_file(index)
         alias = aliases[max_product]
-        description = descriptions[letters]
+        description = descriptions["".join(letters)]
 
         sticker_base64 = encode_image_to_base64(sticker_path)
         if not sticker_base64:

@@ -238,8 +238,8 @@ def modify_sticker(sticker_file, code):
 
         # Resize the image if it's too large
         image_width, image_height = image.size
-        if image_width > 2000 or image_height > 2000:
-            image = image.resize((2000, int(2000 * image_height / image_width)))
+        if image_width > 500 or image_height > 500:
+            image = image.resize((500, int(500 * image_height / image_width)))
             image_width, image_height = image.size
 
         draw = ImageDraw.Draw(image)

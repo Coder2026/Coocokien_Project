@@ -1,4 +1,6 @@
 from flask import request, jsonify
+from PIL import Image
+import io
 from collections import defaultdict
 import logging
 import zlib
@@ -125,7 +127,10 @@ def get_personality():
         alias = aliases[max_product]
         description = descriptions["".join(letters)]
 
-        sticker_base64 = encode_image_to_base64(sticker_path)
+       
+        sticker_base64 = encode_image_to_base64_with_compression(sticker_path, quality=30)
+        if not sticker_base64:
+            return response.badRequest([], "sticker not found")
         if not sticker_base64:
             return response.badRequest([],"sticker not found")
 
@@ -145,25 +150,42 @@ def get_personality():
         print("Error in generate_personality: {e}")
 
 
-def encode_image_to_base64(file_path, compress=False):
-    try:
-        with open(file_path, "rb") as img_file:
-            # Encode file ke Base64
-            base64_data = base64.b64encode(img_file.read()).decode('utf-8')
+def encode_image_to_base64_with_compression(file_path, quality=30, compress_base64=False):
+    """
+    Kompres gambar dengan Pillow dan encode ke Base64.
+    
+    Args:
+        file_path (str): Path ke file gambar asli.
+        quality (int): Kualitas kompresi (1-100).
+        compress_base64 (bool): Jika True, kompres string Base64 dengan zlib.
 
-            if compress:
-                # Kompres data Base64 menggunakan zlib
-                compressed_data = zlib.compress(base64_data.encode('utf-8'))
-                return compressed_data  # Mengembalikan data terkompresi
-            else:
-                return base64_data  # Mengembalikan data Base64 biasa
+    Returns:
+        str: Gambar dalam format Base64 yang sudah dikompresi.
+    """
+    try:
+        # Buka gambar menggunakan Pillow
+        with Image.open(file_path) as img:
+            # Konversi gambar ke RGB jika tidak dalam format RGB
+            if img.mode != "RGB":
+                img = img.convert("RGB")
+            
+            # Kompres gambar menggunakan kualitas tertentu
+            buffer = io.BytesIO()
+            img.save(buffer, format="JPEG", optimize=True, quality=quality)
+            buffer.seek(0)
+
+            # Encode gambar terkompresi ke Base64
+            base64_data = base64.b64encode(buffer.read()).decode("utf-8")
+
+            # Kompres string Base64 jika diminta
+            if compress_base64:
+                compressed_data = zlib.compress(base64_data.encode("utf-8"))
+                return compressed_data
+
+            return base64_data
     except FileNotFoundError:
+        print(f"File tidak ditemukan: {file_path}")
         return None
-
-def decompress_base64(compressed_data):
-    try:
-        # Dekompres data menggunakan zlib
-        decompressed_data = zlib.decompress(compressed_data).decode('utf-8')
-        return decompressed_data  # Mengembalikan data Base64 asli
-    except zlib.error:
+    except Exception as e:
+        print(f"Error saat encode dan kompres gambar: {e}")
         return None
